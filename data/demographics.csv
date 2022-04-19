@@ -1,0 +1,832 @@
+BLIND_ID,VISITID,WEIGHT_K,WEIGHT,SEX,AGE_K,AGE,RACE,RACE_W,RACE_B,other_race,ETHNICITY,VERSION
+53001,20,No,,Male,No,,No,,,,Not Hispanic or Latino/Latina,A
+53002,20,Yes,3.09,Male,Yes,36.80,No,,,,Unknown,A
+53003,20,Yes,2.82,Male,Yes,37.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53004,20,No,,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53005,20,Yes,2.50,Female,Yes,39.00,No,,,,Hispanic or Latino/Latina,A
+53006,20,Yes,1.30,Male,Yes,29.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53007,20,Yes,3.50,Female,Yes,38.70,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53008,20,Yes,3.40,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53009,20,Yes,3.38,Male,Yes,38.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53010,20,Yes,3.48,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53011,20,Yes,1.12,Female,Yes,28.57,Yes,No,Yes,No,Hispanic or Latino/Latina,A
+53012,20,Yes,0.99,Male,Yes,27.00,No,,,,Hispanic or Latino/Latina,A
+53013,20,Yes,3.28,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53014,20,Yes,3.59,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53015,20,Yes,3.14,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53016,20,Yes,2.02,Male,Yes,34.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53017,20,Yes,3.30,Male,Yes,38.00,No,,,,Unknown,A
+53018,20,Yes,2.31,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53019,20,Yes,3.63,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53020,20,Yes,3.53,Female,Yes,38.00,No,,,,Unknown,A
+53021,20,Yes,1.58,Female,Yes,32.00,No,,,,Hispanic or Latino/Latina,A
+53022,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53023,20,Yes,3.35,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53024,20,Yes,3.25,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53025,20,Yes,2.68,Male,Yes,34.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53026,20,Yes,2.53,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53027,20,Yes,2.38,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53028,20,Yes,3.06,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53029,20,Yes,3.30,Male,Yes,40.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53030,20,Yes,0.63,Female,Yes,27.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53031,20,No,,Male,Yes,28.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53032,20,Yes,2.61,Male,Yes,39.00,No,,,,Unknown,A
+53033,20,No,,Female,Yes,41.00,No,,,,Unknown,A
+53034,20,Yes,3.27,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53035,20,Yes,3.54,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53036,20,Yes,2.86,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53037,20,No,,Female,Yes,34.00,No,,,,Unknown,A
+53038,20,Yes,3.43,Male,Yes,39.00,No,,,,Unknown,A
+53039,20,Yes,2.69,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53040,20,No,,Male,Yes,32.00,Yes,No,Yes,No,Hispanic or Latino/Latina,A
+53041,20,Yes,2.19,Female,Yes,34.14,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53042,20,Yes,3.00,Male,Yes,38.30,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53043,20,Yes,3.18,Female,Yes,39.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53044,20,Yes,3.46,Female,Yes,36.00,No,,,,Unknown,A
+53045,20,Yes,3.06,Male,Yes,39.86,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53046,20,Yes,3.00,Male,Yes,39.20,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53047,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53048,20,Yes,3.20,Male,Yes,37.00,No,,,,Not Hispanic or Latino/Latina,A
+53049,20,Yes,3.54,Female,Yes,38.43,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53050,20,Yes,3.74,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53051,20,Yes,2.20,Male,Yes,35.60,No,,,,Unknown,A
+53052,20,Yes,3.56,Male,Yes,40.10,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53053,20,Yes,3.06,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53054,20,Yes,3.43,Male,Yes,40.00,No,,,,Not Hispanic or Latino/Latina,A
+53055,20,No,,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53056,20,No,,Male,Yes,36.85,No,,,,Unknown,A
+53057,20,Yes,4.20,Male,Yes,40.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53058,20,Yes,4.23,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53059,20,No,,Male,No,,No,,,,Unknown,A
+53060,20,Yes,2.07,Female,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53061,20,Yes,3.94,Male,Yes,40.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53062,20,Yes,2.70,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53063,20,Yes,3.18,Female,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53064,20,Yes,2.30,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53065,20,Yes,3.69,Female,Yes,40.00,No,,,,Unknown,A
+53066,20,Yes,3.03,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53067,20,Yes,2.63,Male,Yes,37.00,No,,,,Unknown,A
+53068,20,Yes,3.34,Male,No,,No,,,,Not Hispanic or Latino/Latina,A
+53069,20,Yes,2.36,Female,Yes,32.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53070,20,Yes,2.64,Male,Yes,39.00,No,,,,Unknown,A
+53071,20,Yes,3.32,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53072,20,Yes,2.05,Male,Yes,32.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53073,20,Yes,2.53,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53074,20,Yes,2.95,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53075,20,Yes,2.68,Male,Yes,39.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53076,20,Yes,3.49,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53077,20,Yes,2.27,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53078,20,Yes,3.22,Male,No,,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53079,20,Yes,2.78,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53080,20,No,,Male,Yes,35.70,No,,,,Unknown,A
+53081,20,Yes,4.51,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53082,20,Yes,3.55,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53083,20,Yes,2.75,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53084,20,No,,Female,Yes,39.14,No,,,,Unknown,A
+53085,20,Yes,0.71,Female,Yes,28.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53086,20,Yes,2.69,Female,Yes,37.57,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53087,20,Yes,3.71,Female,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53088,20,Yes,3.76,Female,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53089,20,Yes,3.16,Male,Yes,40.57,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53090,20,Yes,2.30,Female,Yes,36.00,No,,,,Unknown,A
+53091,20,Yes,3.10,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53092,20,Yes,3.26,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53093,20,Yes,3.50,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53094,20,Yes,3.52,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53095,20,Yes,3.07,Female,Yes,37.43,Yes,Yes,Yes,No,Not Hispanic or Latino/Latina,A
+53096,20,Yes,3.93,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53097,20,Yes,3.58,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53098,20,Yes,4.09,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53099,20,Yes,4.48,Female,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53100,20,Yes,3.74,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53101,20,Yes,3.67,Male,Yes,39.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53102,20,Yes,2.58,Male,No,,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53103,20,Yes,2.44,Male,Yes,34.00,Yes,Yes,No,No,Unknown,A
+53104,20,Yes,3.32,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53105,20,Yes,2.87,Male,Yes,38.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53106,20,Yes,3.43,Male,Yes,39.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53107,20,Yes,3.55,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53108,20,Yes,3.26,Female,Yes,39.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53109,20,Yes,2.11,Female,Yes,38.00,No,,,,Unknown,A
+53110,20,No,,Male,No,,No,,,,Unknown,A
+53111,20,Yes,1.50,Male,Yes,31.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53112,20,Yes,1.42,Male,Yes,33.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53113,20,Yes,2.32,Male,Yes,37.00,Yes,Yes,No,No,Unknown,A
+53114,20,Yes,1.95,Male,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53115,20,Yes,3.86,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53116,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53117,20,No,,Female,No,,No,,,,Unknown,A
+53118,20,Yes,2.72,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53119,20,Yes,1.11,Male,Yes,28.71,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53120,20,Yes,3.32,Male,Yes,39.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53121,20,No,,Female,No,,No,,,,Unknown,A
+53122,20,Yes,1.45,Female,Yes,27.00,Yes,Yes,No,No,Unknown,A
+53123,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53124,20,Yes,3.37,Male,Yes,37.00,No,,,,Unknown,A
+53125,20,Yes,4.08,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53126,20,Yes,4.70,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53127,20,Yes,2.37,Female,Yes,39.00,No,,,,Unknown,A
+53128,20,Yes,3.14,Female,Yes,38.00,No,,,,Unknown,A
+53129,20,Yes,3.40,Female,Yes,39.60,No,,,,Unknown,A
+53130,20,No,,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53131,20,Yes,3.18,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53132,20,No,,Male,Yes,40.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53133,20,Yes,2.10,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53134,20,Yes,2.80,Male,Yes,37.29,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53135,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53136,20,Yes,3.35,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53137,20,No,,Female,Yes,41.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53138,20,Yes,3.05,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53139,20,Yes,3.60,Female,Yes,40.00,No,,,,Unknown,A
+53140,20,Yes,2.57,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53141,20,Yes,2.33,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53142,20,Yes,2.30,Female,Yes,36.20,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53143,20,Yes,3.80,Male,Yes,37.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53144,20,Yes,3.00,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53145,20,Yes,3.43,Male,Yes,39.00,No,,,,Unknown,A
+53146,20,Yes,2.39,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53147,20,Yes,2.80,Male,Yes,38.43,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53148,20,Yes,3.50,Male,Yes,39.00,No,,,,Unknown,A
+53149,20,Yes,3.20,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53150,20,Yes,3.30,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53151,20,Yes,2.07,Female,Yes,38.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53152,20,Yes,3.04,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53153,20,No,,Male,Yes,39.00,No,,,,Unknown,A
+53154,20,Yes,3.25,Male,Yes,39.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53155,20,Yes,2.40,Female,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53156,20,Yes,1.19,Male,Yes,29.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53157,20,Yes,2.80,Male,Yes,36.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53158,20,Yes,3.40,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53159,20,Yes,3.69,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53160,20,Yes,2.38,Male,Yes,35.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53161,20,Yes,3.69,Male,Yes,40.57,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53162,20,Yes,2.30,Male,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53163,20,Yes,2.90,Female,Yes,37.57,No,,,,Unknown,A
+53164,20,Yes,3.00,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53165,20,Yes,3.70,Female,Yes,39.00,No,,,,Unknown,A
+53166,20,Yes,3.44,Male,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53167,20,Yes,3.02,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53168,20,Yes,3.35,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53169,20,No,,Female,No,,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53170,20,Yes,2.01,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53171,20,Yes,3.50,Male,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53172,20,Yes,3.06,Female,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53173,20,Yes,1.95,Male,Yes,34.10,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53174,20,Yes,3.31,Male,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53175,20,Yes,3.18,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53176,20,Yes,3.05,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53177,20,Yes,2.81,Female,No,,No,,,,Unknown,A
+53178,20,Yes,3.57,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53179,20,Yes,2.95,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53180,20,Yes,3.48,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53181,20,Yes,3.29,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53182,20,Yes,2.92,Male,Yes,39.00,Yes,Yes,No,No,Unknown,A
+53183,20,Yes,4.10,Male,Yes,41.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53184,20,Yes,3.54,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53185,20,Yes,1.58,Male,Yes,31.40,No,,,,Unknown,A
+53186,20,No,,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53187,20,Yes,2.72,Male,Yes,39.57,Yes,No,Yes,No,Hispanic or Latino/Latina,A
+53188,20,Yes,2.36,Female,Yes,37.00,No,,,,Unknown,A
+53189,20,Yes,2.70,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53190,20,Yes,1.88,Female,Yes,32.29,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53191,20,Yes,3.35,Female,No,,Yes,No,Yes,Yes,Not Hispanic or Latino/Latina,A
+53192,20,Yes,1.10,Male,Yes,30.00,No,,,,Not Hispanic or Latino/Latina,A
+53193,20,Yes,1.59,Female,Yes,31.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53194,20,No,,Female,No,,Yes,No,Yes,No,Hispanic or Latino/Latina,A
+53195,20,Yes,3.70,Male,Yes,38.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53196,20,Yes,3.46,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53197,20,Yes,1.69,Female,Yes,36.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53198,20,Yes,3.70,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53199,20,Yes,2.55,Male,Yes,38.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53200,20,Yes,2.74,Male,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53201,20,Yes,1.70,Male,Yes,36.29,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53202,20,Yes,1.68,Female,Yes,33.87,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53203,20,Yes,2.10,Female,Yes,35.00,No,,,,Unknown,A
+53204,20,Yes,3.11,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53205,20,Yes,1.80,Female,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53206,20,Yes,2.31,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53207,20,Yes,3.31,Male,Yes,36.29,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53208,20,Yes,3.08,Female,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53209,20,Yes,3.00,Male,Yes,39.14,Yes,Yes,No,No,Unknown,A
+53210,20,Yes,3.97,Male,Yes,37.30,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53211,20,Yes,3.60,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53212,20,Yes,1.65,Male,Yes,29.00,No,,,,Unknown,A
+53213,20,No,,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53214,20,Yes,3.33,Female,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53215,20,Yes,2.30,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53216,20,Yes,2.85,Female,Yes,39.00,No,,,,Not Hispanic or Latino/Latina,A
+53217,20,Yes,2.24,Male,Yes,36.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53218,20,Yes,3.32,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53219,20,Yes,1.98,Male,No,,No,,,,Not Hispanic or Latino/Latina,A
+53220,20,Yes,3.60,Female,Yes,40.00,No,,,,Not Hispanic or Latino/Latina,A
+53221,20,Yes,3.08,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53222,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53223,20,Yes,3.31,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53224,20,Yes,3.49,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53225,20,Yes,4.25,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53226,20,Yes,1.30,Female,Yes,37.14,No,,,,Not Hispanic or Latino/Latina,A
+53227,20,Yes,2.33,Male,Yes,35.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53228,20,Yes,2.70,Female,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53229,20,Yes,2.83,Female,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53230,20,Yes,3.74,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53231,20,Yes,2.67,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53232,20,Yes,2.89,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53233,20,Yes,1.07,Male,Yes,27.90,No,,,,Unknown,A
+53234,20,Yes,3.26,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53235,20,Yes,2.91,Female,Yes,36.00,No,,,,Not Hispanic or Latino/Latina,A
+53236,20,Yes,3.60,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53237,20,Yes,3.49,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53238,20,Yes,2.67,Male,Yes,36.00,No,,,,Not Hispanic or Latino/Latina,A
+53239,20,No,,Male,No,,Yes,No,Yes,No,Unknown,A
+53240,20,Yes,3.01,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53241,20,Yes,3.10,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53242,20,Yes,1.86,Male,Yes,36.00,No,,,,Unknown,A
+53243,20,Yes,2.86,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53244,20,Yes,3.88,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53245,20,Yes,2.40,Female,Yes,37.00,Yes,Yes,No,No,Unknown,A
+53246,20,Yes,3.58,Male,Yes,41.00,No,,,,Unknown,A
+53247,20,Yes,3.84,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53248,20,Yes,1.51,Male,Yes,30.00,No,,,,Not Hispanic or Latino/Latina,A
+53249,20,Yes,0.85,Female,Yes,28.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53250,20,Yes,3.00,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53251,20,Yes,3.27,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53252,20,Yes,3.30,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53253,20,Yes,3.20,Female,No,,No,,,,Unknown,A
+53254,20,Yes,3.95,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53255,20,Yes,2.55,Female,Yes,36.00,Yes,Yes,No,No,Unknown,A
+53256,20,Yes,2.60,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53257,20,Yes,2.93,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53258,20,Yes,3.50,Male,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53259,20,Yes,3.20,Female,Yes,38.00,No,,,,Unknown,A
+53260,20,No,,Male,Yes,37.00,No,,,,Unknown,A
+53261,20,Yes,3.43,Female,Yes,38.40,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53262,20,Yes,3.00,Male,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53263,20,Yes,2.87,Female,Yes,37.00,No,,,,Not Hispanic or Latino/Latina,A
+53264,20,Yes,3.06,Female,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53265,20,Yes,3.37,Female,Yes,40.00,Yes,Yes,No,No,Unknown,A
+53266,20,Yes,3.03,Male,No,,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53267,20,Yes,3.91,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53268,20,Yes,3.40,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53269,20,Yes,2.60,Female,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53270,20,Yes,3.60,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53271,20,Yes,4.30,Male,Yes,39.00,No,,,,Unknown,A
+53272,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53273,20,Yes,2.15,Female,Yes,33.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53274,20,Yes,2.30,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53275,20,Yes,3.39,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53276,20,Yes,3.01,Female,Yes,39.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53277,20,Yes,2.65,Female,Yes,36.71,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53278,20,No,,Female,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53279,20,Yes,3.56,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53280,20,Yes,3.03,Male,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53281,20,Yes,2.84,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53282,20,Yes,2.95,Female,Yes,40.00,No,,,,Unknown,A
+53283,20,Yes,1.80,Female,Yes,34.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53284,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53285,20,Yes,3.07,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53286,20,No,,Female,Yes,39.00,No,,,,Unknown,A
+53287,20,Yes,2.84,Male,Yes,40.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53288,20,Yes,3.46,Male,Yes,39.10,No,,,,Unknown,A
+53289,20,Yes,3.85,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53290,20,Yes,3.06,Male,Yes,36.00,No,,,,Unknown,A
+53291,20,Yes,2.95,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53292,20,Yes,0.81,Male,Yes,25.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53293,20,Yes,2.30,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53294,20,Yes,2.92,Male,Yes,35.60,No,,,,Unknown,A
+53295,20,Yes,3.52,Female,Yes,38.30,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53296,20,Yes,2.30,Female,Yes,34.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53297,20,Yes,2.10,Female,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53298,20,Yes,3.10,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53299,20,Yes,3.70,Male,Yes,39.57,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53300,20,Yes,3.69,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53301,20,Yes,3.59,Female,Yes,39.00,No,,,,Unknown,A
+53302,20,Yes,2.50,Female,Yes,38.71,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53303,20,Yes,2.75,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53304,20,Yes,2.75,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53305,20,Yes,1.80,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53306,20,Yes,3.01,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53307,20,Yes,2.89,Female,Yes,38.00,Yes,Yes,No,No,Unknown,A
+53308,20,Yes,2.21,Female,Yes,39.10,No,,,,Hispanic or Latino/Latina,A
+53309,20,Yes,3.52,Male,Yes,39.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53310,20,Yes,2.95,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53311,20,Yes,2.40,Female,No,,No,,,,Not Hispanic or Latino/Latina,A
+53312,20,Yes,3.14,Male,Yes,37.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53313,20,Yes,3.20,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53314,20,Yes,2.17,Female,Yes,36.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53315,20,Yes,3.56,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53316,20,Yes,3.25,Female,Yes,38.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53317,20,Yes,3.38,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53318,20,Yes,3.24,Male,Yes,38.00,No,,,,Unknown,A
+53319,20,Yes,3.23,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53320,20,No,,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53321,20,Yes,3.40,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53322,20,Yes,2.44,Female,Yes,36.57,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53323,20,No,,Male,Yes,36.86,No,,,,Unknown,A
+53324,20,Yes,2.52,Female,Yes,35.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53325,20,Yes,3.48,Female,Yes,36.90,No,,,,Unknown,A
+53326,20,Yes,3.12,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53327,20,Yes,2.94,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53328,20,No,,Male,No,,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53329,20,Yes,2.98,Male,Yes,37.00,No,,,,Unknown,A
+53330,20,No,,Female,Yes,39.00,No,,,,Unknown,A
+53331,20,Yes,3.40,Male,Yes,38.50,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53332,20,Yes,2.70,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53333,20,Yes,3.15,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53334,20,Yes,1.68,Male,Yes,32.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53335,20,Yes,2.75,Female,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53336,20,Yes,2.81,Male,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53337,20,Yes,3.41,Male,Yes,40.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53338,20,Yes,3.03,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53339,20,Yes,2.30,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53340,20,Yes,2.57,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53341,20,Yes,3.86,Male,Yes,37.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53342,20,Yes,3.83,Female,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53343,20,Yes,2.40,Male,Yes,38.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53344,20,Yes,3.29,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53345,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53346,20,Yes,3.00,Male,Yes,38.40,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53347,20,Yes,3.00,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53348,20,Yes,3.40,Female,No,,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53349,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53350,20,Yes,2.59,Male,Yes,38.00,No,,,,Unknown,A
+53351,20,No,,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53352,20,Yes,3.08,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53353,20,Yes,2.89,Female,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53354,20,Yes,3.75,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53355,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53356,20,Yes,3.40,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53357,20,Yes,3.37,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53358,20,Yes,2.12,Female,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53359,20,Yes,1.30,Male,Yes,29.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53360,20,No,,Female,Yes,37.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53361,20,Yes,3.43,Female,Yes,41.43,No,,,,Unknown,A
+53362,20,Yes,2.91,Male,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53363,20,No,,Female,Yes,41.00,No,,,,Unknown,A
+53364,20,Yes,3.80,Female,Yes,40.00,No,,,,Unknown,A
+53365,20,Yes,3.20,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53366,20,Yes,1.66,Male,Yes,34.00,No,,,,Unknown,A
+53367,20,Yes,2.72,Female,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53368,20,Yes,1.14,Male,Yes,27.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53369,20,Yes,2.84,Male,Yes,39.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53370,20,Yes,2.69,Male,Yes,37.50,No,,,,Unknown,A
+53371,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53372,20,Yes,3.32,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53373,20,Yes,3.09,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53374,20,Yes,2.31,Female,Yes,35.00,Yes,No,No,Yes,Unknown,A
+53375,20,Yes,2.41,Male,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53376,20,Yes,2.89,Female,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53377,20,Yes,3.26,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53378,20,Yes,2.58,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53379,20,No,,Female,Yes,41.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53380,20,Yes,2.54,Female,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53381,20,No,,Male,Yes,37.00,No,,,,Unknown,A
+53382,20,Yes,3.49,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53383,20,Yes,2.72,Male,Yes,39.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53384,20,Yes,3.16,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53385,20,Yes,3.57,Male,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53386,20,Yes,3.89,Male,No,,No,,,,Unknown,A
+53387,20,Yes,3.17,Male,Yes,38.40,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53388,20,Yes,3.46,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53389,20,Yes,3.17,Male,Yes,39.60,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53390,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53391,20,Yes,2.81,Male,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53392,20,No,,Male,No,,Yes,No,No,Yes,Unknown,A
+53393,20,Yes,3.25,Male,Yes,38.00,No,,,,Unknown,A
+53394,20,Yes,3.86,Male,Yes,39.71,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53395,20,Yes,3.26,Female,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53396,20,No,,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53397,20,Yes,2.40,Female,Yes,37.00,No,,,,Unknown,A
+53398,20,Yes,3.14,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53399,20,Yes,2.74,Female,No,,No,,,,Unknown,A
+53400,20,Yes,3.69,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53401,20,Yes,3.07,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53402,20,Yes,1.33,Male,Yes,32.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53403,20,Yes,3.77,Female,Yes,39.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53404,20,Yes,2.85,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53405,20,Yes,2.20,Female,Yes,37.10,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53406,20,Yes,2.43,Male,Yes,35.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53407,20,Yes,3.12,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53408,20,No,,Male,Yes,33.00,No,,,,Unknown,A
+53409,20,Yes,3.28,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53410,20,Yes,3.20,Male,Yes,37.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53411,20,No,,Female,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53412,20,Yes,3.49,Female,Yes,40.00,No,,,,Not Hispanic or Latino/Latina,A
+53413,20,Yes,2.04,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53414,20,Yes,3.01,Male,Yes,37.00,Yes,Yes,No,No,Unknown,A
+53415,20,Yes,2.78,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53416,20,Yes,2.80,Male,Yes,38.00,No,,,,Hispanic or Latino/Latina,A
+53417,20,Yes,2.28,Female,Yes,37.00,No,,,,Unknown,A
+53418,20,Yes,2.93,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53419,20,Yes,2.81,Male,Yes,39.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53420,20,Yes,3.21,Male,Yes,39.10,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53421,20,Yes,3.80,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53422,20,Yes,2.80,Female,Yes,38.14,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53423,20,No,,Male,No,,No,,,,Unknown,A
+53424,20,Yes,3.15,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53425,20,Yes,3.82,Male,Yes,41.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53426,20,No,,Female,Yes,39.00,No,,,,Unknown,A
+53427,20,No,,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53428,20,Yes,3.37,Female,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53429,20,Yes,3.52,Male,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53430,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53431,20,Yes,3.64,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53432,20,Yes,3.13,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53433,20,Yes,3.39,Male,Yes,38.50,No,,,,Unknown,A
+53434,20,Yes,2.15,Female,Yes,34.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53435,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53436,20,Yes,2.52,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53437,20,Yes,2.88,Female,Yes,37.40,Yes,Yes,No,No,Unknown,A
+53438,20,Yes,4.50,Male,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53439,20,Yes,1.73,Male,Yes,30.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53440,20,No,,Male,Yes,33.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53441,20,Yes,1.24,Female,Yes,32.00,No,,,,Not Hispanic or Latino/Latina,A
+53442,20,Yes,2.22,Male,Yes,38.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53443,20,Yes,2.58,Female,Yes,37.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53444,20,Yes,3.13,Male,Yes,39.10,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53445,20,Yes,3.10,Male,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53446,20,Yes,3.68,Male,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53447,20,Yes,2.80,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53448,20,No,,Male,Yes,36.00,No,,,,Unknown,A
+53449,20,No,,Male,Yes,37.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53450,20,Yes,3.70,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53451,20,Yes,2.95,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53452,20,Yes,3.79,Male,Yes,38.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53453,20,Yes,3.38,Female,Yes,39.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53454,20,Yes,1.90,Female,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53455,20,Yes,3.08,Female,Yes,36.86,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53456,20,Yes,3.49,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53457,20,Yes,3.00,Male,Yes,39.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53458,20,Yes,2.53,Male,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53459,20,Yes,2.57,Male,Yes,38.00,No,,,,Unknown,A
+53460,20,Yes,3.21,Female,Yes,38.00,No,,,,Hispanic or Latino/Latina,A
+53461,20,Yes,2.56,Male,Yes,38.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53462,20,Yes,3.19,Female,Yes,41.57,No,,,,Unknown,A
+53463,20,Yes,3.99,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53464,20,Yes,3.17,Male,No,,No,,,,Unknown,A
+53465,20,Yes,2.00,Male,Yes,33.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53466,20,Yes,3.18,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53467,20,Yes,2.92,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53468,20,Yes,3.50,Male,Yes,37.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53469,20,Yes,1.47,Male,Yes,35.57,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53470,20,No,,Male,No,,Yes,Yes,No,No,Unknown,A
+53471,20,Yes,2.90,Female,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53472,20,Yes,2.70,Male,Yes,38.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53473,20,Yes,3.20,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53474,20,No,,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53475,20,Yes,3.30,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53476,20,Yes,3.30,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53477,20,Yes,3.03,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53478,20,Yes,3.70,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53479,20,Yes,3.26,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53480,20,Yes,3.37,Female,Yes,35.00,No,,,,Unknown,A
+53481,20,Yes,2.75,Male,Yes,38.00,No,,,,Hispanic or Latino/Latina,A
+53482,20,Yes,2.31,Male,Yes,36.40,No,,,,Unknown,A
+53483,20,Yes,2.27,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53484,20,Yes,2.69,Male,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53485,20,Yes,3.90,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53486,20,Yes,1.31,Female,Yes,31.00,No,,,,Not Hispanic or Latino/Latina,A
+53487,20,Yes,3.34,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53488,20,Yes,2.56,Female,Yes,37.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53489,20,Yes,2.40,Female,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53490,20,Yes,3.39,Female,Yes,38.00,No,,,,Unknown,A
+53491,20,Yes,3.88,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53492,20,Yes,1.89,Male,Yes,37.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53493,20,Yes,1.70,Female,Yes,35.00,No,,,,Unknown,A
+53494,20,Yes,3.49,Female,Yes,38.71,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53495,20,Yes,3.18,Male,Yes,38.00,No,,,,Unknown,A
+53496,20,Yes,1.23,Male,Yes,35.00,Yes,Yes,No,No,Unknown,A
+53497,20,Yes,2.18,Female,Yes,37.00,No,,,,Unknown,A
+53498,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53499,20,No,,Male,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53500,20,Yes,2.63,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53501,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53502,20,No,,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53503,20,Yes,3.36,Female,Yes,39.43,No,,,,Unknown,A
+53504,20,No,,Female,No,,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53505,20,Yes,3.18,Female,Yes,36.43,No,,,,Not Hispanic or Latino/Latina,A
+53506,20,Yes,2.67,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53507,20,Yes,3.86,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53508,20,Yes,2.75,Male,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53509,20,Yes,1.71,Female,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53510,20,No,,Male,Yes,41.01,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53511,20,Yes,2.75,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53512,20,Yes,3.02,Male,Yes,37.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53513,20,Yes,3.50,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53514,20,Yes,3.22,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53515,20,Yes,2.78,Male,Yes,38.00,No,,,,Not Hispanic or Latino/Latina,A
+53516,20,Yes,3.16,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53517,20,Yes,2.74,Female,Yes,37.70,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53518,20,Yes,3.23,Male,Yes,39.00,Yes,Yes,No,Yes,Not Hispanic or Latino/Latina,A
+53519,20,Yes,3.43,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53520,20,No,,Male,No,,No,,,,Unknown,A
+53521,20,No,,Female,Yes,35.71,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53522,20,Yes,3.50,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53523,20,Yes,3.87,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53524,20,Yes,1.87,Male,Yes,33.57,Yes,No,Yes,No,Unknown,A
+53525,20,Yes,3.01,Female,Yes,40.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53526,20,No,,Male,Yes,39.14,No,,,,Hispanic or Latino/Latina,A
+53527,20,Yes,2.18,Female,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53528,20,Yes,3.03,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53529,20,Yes,3.80,Male,Yes,41.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53530,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53531,20,No,,Female,Yes,34.00,No,,,,Unknown,A
+53532,20,Yes,2.15,Female,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53533,20,Yes,4.16,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53534,20,Yes,3.05,Male,Yes,37.30,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53535,20,Yes,2.03,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53536,20,Yes,2.53,Male,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53537,20,Yes,4.28,Male,Yes,41.00,No,,,,Unknown,A
+53538,20,Yes,3.06,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53539,20,Yes,2.28,Female,Yes,39.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53540,20,Yes,4.00,Female,Yes,37.00,No,,,,Unknown,A
+53541,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53542,20,Yes,2.75,Female,Yes,39.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53543,20,Yes,3.98,Male,Yes,39.00,Yes,Yes,No,No,Unknown,A
+53544,20,Yes,2.77,Male,Yes,38.00,No,,,,Unknown,A
+53545,20,Yes,3.40,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53546,20,Yes,3.06,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53547,20,Yes,4.12,Male,Yes,38.20,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53548,20,Yes,3.06,Male,Yes,38.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53549,20,Yes,2.36,Female,Yes,35.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53550,20,Yes,3.67,Male,Yes,40.29,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53551,20,Yes,2.92,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53552,20,No,,Male,No,,No,,,,Not Hispanic or Latino/Latina,A
+53553,20,Yes,2.47,Male,Yes,34.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53554,20,Yes,3.54,Female,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53555,20,No,,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53556,20,Yes,2.15,Female,Yes,34.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53557,20,Yes,4.58,Male,Yes,38.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53558,20,Yes,2.36,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53559,20,Yes,3.14,Female,Yes,38.40,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53560,20,Yes,3.66,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53561,20,Yes,2.10,Female,Yes,39.00,Yes,Yes,No,No,Unknown,A
+53562,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53563,20,Yes,2.84,Male,Yes,38.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53564,20,Yes,3.85,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53565,20,Yes,2.84,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53566,20,Yes,2.01,Female,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53567,20,Yes,1.87,Female,Yes,38.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53568,20,Yes,3.86,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53569,20,Yes,3.05,Male,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53570,20,Yes,3.55,Male,Yes,39.20,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53571,20,Yes,2.64,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53572,20,No,,Male,No,,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53573,20,Yes,2.95,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53574,20,Yes,1.32,Female,Yes,36.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53575,20,Yes,2.55,Male,Yes,38.57,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53576,20,Yes,3.76,Male,Yes,40.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53577,20,Yes,3.27,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53578,20,Yes,0.73,Female,Yes,26.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53579,20,Yes,3.09,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53580,20,Yes,3.68,Female,Yes,41.00,No,,,,Unknown,A
+53581,20,Yes,3.54,Female,No,,No,,,,Unknown,A
+53582,20,Yes,1.93,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53583,20,No,,Female,Yes,28.00,No,,,,Unknown,A
+53584,20,Yes,2.06,Female,Yes,36.57,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53585,20,No,,Female,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53586,20,Yes,3.96,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53587,20,Yes,2.78,Male,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53588,20,Yes,3.90,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53589,20,Yes,1.43,Female,Yes,30.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53590,20,Yes,3.56,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53591,20,Yes,3.10,Male,Yes,39.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53592,20,Yes,2.27,Female,Yes,37.00,No,,,,Unknown,A
+53593,20,Yes,3.23,Male,Yes,40.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53594,20,Yes,3.34,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53595,20,Yes,2.97,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53596,20,No,,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53597,20,Yes,2.13,Female,Yes,37.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53598,20,No,,Male,Yes,38.00,No,,,,Unknown,A
+53599,20,Yes,2.70,Female,Yes,38.00,No,,,,Unknown,A
+53600,20,Yes,4.15,Male,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53601,20,Yes,2.67,Female,No,,No,,,,Unknown,A
+53602,20,Yes,3.28,Male,Yes,37.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53603,20,Yes,2.35,Male,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53604,20,Yes,2.96,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53605,20,Yes,4.48,Male,Yes,40.86,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53606,20,Yes,2.97,Male,Yes,41.00,Yes,Yes,No,No,Unknown,A
+53607,20,Yes,2.48,Male,Yes,38.00,No,,,,Unknown,A
+53608,20,Yes,5.60,Male,No,,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53609,20,Yes,3.02,Female,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53610,20,Yes,3.45,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53611,20,Yes,2.72,Female,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53612,20,Yes,2.70,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53613,20,Yes,2.38,Male,Yes,36.87,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53614,20,Yes,2.83,Female,Yes,40.00,No,,,,Unknown,A
+53615,20,Yes,3.49,Female,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53616,20,Yes,3.60,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53617,20,Yes,3.75,Male,Yes,40.57,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53618,20,No,,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53619,20,Yes,3.25,Female,No,,No,,,,Unknown,A
+53620,20,Yes,2.41,Male,Yes,35.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53621,20,Yes,3.02,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53622,20,Yes,2.57,Male,No,,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53623,20,No,,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53624,20,No,,Male,Yes,31.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53625,20,Yes,3.71,Male,Yes,38.00,Yes,Yes,No,No,Unknown,A
+53626,20,Yes,3.10,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53627,20,Yes,1.93,Male,Yes,33.00,No,,,,Not Hispanic or Latino/Latina,A
+53628,20,No,,Female,No,,No,,,,Unknown,A
+53629,20,No,,Female,No,,No,,,,Unknown,A
+53630,20,Yes,3.60,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53631,20,Yes,1.80,Male,Yes,36.00,No,,,,Unknown,A
+53632,20,No,,Male,No,,No,,,,Unknown,A
+53633,20,Yes,2.09,Female,Yes,33.00,No,,,,Not Hispanic or Latino/Latina,A
+53634,20,Yes,1.53,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53635,20,Yes,3.52,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53636,20,Yes,2.42,Male,Yes,36.00,No,,,,Unknown,A
+53637,20,Yes,3.18,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53638,20,Yes,3.58,Female,Yes,39.00,No,,,,Unknown,A
+53639,20,Yes,3.39,Female,Yes,39.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53640,20,Yes,2.78,Female,Yes,38.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53641,20,Yes,2.92,Male,Yes,39.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53642,20,Yes,3.46,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53643,20,Yes,3.46,Male,Yes,40.71,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53644,20,Yes,3.31,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53645,20,Yes,1.42,Female,Yes,32.00,Yes,Yes,No,Yes,Not Hispanic or Latino/Latina,A
+53646,20,Yes,1.16,Female,Yes,27.30,No,,,,Unknown,A
+53647,20,Yes,2.65,Female,Yes,37.00,No,,,,Unknown,A
+53648,20,No,,Male,No,,No,,,,Unknown,A
+53649,20,Yes,3.80,Male,Yes,39.00,No,,,,Unknown,A
+53650,20,Yes,3.31,Male,No,,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53651,20,Yes,3.82,Male,Yes,39.00,No,,,,Hispanic or Latino/Latina,A
+53652,20,Yes,3.41,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53653,20,No,,Male,No,,No,,,,Hispanic or Latino/Latina,A
+53654,20,Yes,2.97,Male,Yes,39.00,No,,,,Not Hispanic or Latino/Latina,A
+53655,20,Yes,4.20,Male,Yes,40.00,No,,,,Not Hispanic or Latino/Latina,A
+53656,20,Yes,3.12,Male,Yes,36.00,No,,,,Unknown,A
+53657,20,Yes,2.33,Male,Yes,36.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53658,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53659,20,Yes,2.31,Male,Yes,36.00,No,,,,Unknown,A
+53660,20,Yes,1.88,Female,Yes,38.28,No,,,,Unknown,A
+53661,20,Yes,2.53,Male,Yes,37.00,No,,,,Unknown,A
+53662,20,Yes,3.04,Male,Yes,38.60,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53663,20,Yes,2.72,Female,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53664,20,Yes,2.75,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53665,20,Yes,3.70,Male,Yes,40.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53666,20,Yes,1.85,Male,Yes,32.60,No,,,,Unknown,A
+53667,20,Yes,1.70,Male,Yes,32.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53668,20,Yes,4.40,Male,Yes,40.30,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53669,20,No,,Male,No,,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53670,20,No,,Female,Yes,40.00,No,,,,Unknown,A
+53671,20,Yes,2.33,Female,Yes,38.60,No,,,,Unknown,A
+53672,20,Yes,3.49,Female,Yes,37.86,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53673,20,Yes,4.42,Male,Yes,41.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53674,20,No,,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53675,20,Yes,3.09,Female,Yes,40.00,No,,,,Unknown,A
+53676,20,Yes,3.62,Male,Yes,37.71,No,,,,Not Hispanic or Latino/Latina,A
+53677,20,Yes,2.60,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53678,20,Yes,2.75,Female,No,,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53679,20,No,,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53680,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53681,20,Yes,2.95,Male,Yes,38.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53682,20,Yes,1.52,Male,Yes,30.00,No,,,,Unknown,A
+53683,20,Yes,3.71,Male,Yes,40.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53684,20,Yes,2.50,Female,Yes,37.57,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53685,20,Yes,2.24,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53686,20,Yes,4.14,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53687,20,Yes,3.68,Male,Yes,38.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53688,20,Yes,3.14,Female,Yes,39.00,No,,,,Unknown,A
+53689,20,Yes,2.85,Female,Yes,40.00,No,,,,Unknown,A
+53690,20,Yes,3.50,Male,No,,No,,,,Unknown,A
+53691,20,Yes,2.50,Male,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53692,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53693,20,Yes,2.58,Female,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53694,20,Yes,2.89,Male,Yes,36.87,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53695,20,Yes,2.72,Female,Yes,36.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53696,20,Yes,3.60,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53697,20,Yes,1.40,Male,Yes,29.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53698,20,Yes,1.50,Male,Yes,34.30,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53699,20,Yes,2.21,Female,Yes,35.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53700,20,Yes,3.90,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53701,20,Yes,1.79,Female,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53702,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53703,20,Yes,3.49,Male,Yes,33.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53704,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53705,20,Yes,2.41,Female,Yes,38.00,No,,,,Unknown,A
+53706,20,Yes,3.71,Male,No,,No,,,,Not Hispanic or Latino/Latina,A
+53707,20,Yes,2.41,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53708,20,Yes,2.70,Male,Yes,36.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53709,20,Yes,3.52,Male,Yes,38.29,No,,,,Unknown,A
+53710,20,Yes,2.80,Female,Yes,39.00,Yes,Yes,No,No,Unknown,A
+53711,20,Yes,2.30,Female,Yes,37.01,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53712,20,Yes,3.57,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53713,20,Yes,1.89,Female,Yes,34.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53714,20,Yes,3.73,Male,Yes,39.57,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53715,20,Yes,2.39,Male,Yes,35.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53716,20,Yes,2.59,Female,Yes,35.29,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53717,20,No,,Female,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53718,20,Yes,3.11,Male,Yes,38.50,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53719,20,Yes,3.04,Female,Yes,38.57,No,,,,Unknown,A
+53720,20,No,,Male,Yes,39.00,Yes,Yes,No,No,Unknown,A
+53721,20,Yes,3.30,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53722,20,No,,Female,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53723,20,Yes,3.09,Female,Yes,40.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53724,20,Yes,3.20,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53725,20,Yes,2.64,Male,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53726,20,Yes,4.00,Female,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53727,20,Yes,2.39,Female,Yes,37.00,Yes,Yes,No,No,Unknown,A
+53728,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53729,20,Yes,3.20,Male,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53730,20,Yes,2.50,Male,Yes,34.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53731,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53732,20,Yes,4.22,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53733,20,Yes,1.58,Male,Yes,36.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53734,20,Yes,1.92,Male,Yes,34.86,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53735,20,Yes,3.99,Male,Yes,41.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53736,20,Yes,1.93,Male,Yes,33.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53737,20,Yes,3.60,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53738,20,Yes,2.03,Female,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53739,20,Yes,2.86,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53740,20,Yes,2.70,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53741,20,Yes,3.20,Female,Yes,39.29,No,,,,Not Hispanic or Latino/Latina,A
+53742,20,No,,Female,Yes,37.57,No,,,,Unknown,A
+53743,20,No,,Male,No,,Yes,No,Yes,No,Unknown,A
+53744,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Unknown,A
+53745,20,Yes,3.57,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53746,20,Yes,3.43,Female,Yes,41.00,No,,,,Unknown,A
+53747,20,Yes,3.62,Female,Yes,37.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53748,20,Yes,2.30,Male,Yes,35.00,No,,,,Not Hispanic or Latino/Latina,A
+53749,20,No,,Female,Yes,40.00,No,,,,Unknown,A
+53750,20,Yes,3.64,Female,Yes,39.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53751,20,Yes,3.85,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53752,20,Yes,2.75,Female,Yes,37.14,No,,,,Unknown,A
+53753,20,Yes,3.74,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53754,20,Yes,3.50,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53755,20,Yes,3.26,Female,Yes,39.00,No,,,,Unknown,A
+53756,20,Yes,2.77,Female,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53757,20,Yes,3.23,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53758,20,Yes,3.40,Male,Yes,37.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53759,20,Yes,2.51,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53760,20,Yes,3.80,Male,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53761,20,Yes,3.43,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53762,20,Yes,3.32,Female,Yes,40.30,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53763,20,No,,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53764,20,No,,Male,Yes,39.86,No,,,,Unknown,A
+53765,20,Yes,2.59,Male,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53766,20,Yes,3.20,Male,Yes,38.43,No,,,,Unknown,A
+53767,20,Yes,2.80,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53768,20,Yes,2.76,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53769,20,Yes,1.30,Male,Yes,29.00,No,,,,Unknown,A
+53770,20,No,,Female,Yes,37.00,Yes,No,Yes,No,Hispanic or Latino/Latina,A
+53771,20,Yes,3.04,Male,Yes,36.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53772,20,Yes,2.99,Female,Yes,38.00,No,,,,Unknown,A
+53773,20,Yes,3.52,Male,Yes,39.20,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53774,20,Yes,3.86,Female,Yes,40.87,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53775,20,Yes,3.89,Male,Yes,39.00,No,,,,Unknown,A
+53776,20,No,,Male,Yes,40.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53777,20,Yes,3.99,Female,Yes,40.00,Yes,Yes,No,No,Unknown,A
+53778,20,Yes,3.52,Female,Yes,40.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53779,20,Yes,3.00,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53780,20,Yes,3.05,Male,Yes,39.20,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53781,20,Yes,4.02,Male,Yes,40.00,No,,,,Unknown,A
+53782,20,Yes,3.40,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53783,20,Yes,2.52,Female,Yes,36.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53784,20,Yes,3.06,Female,Yes,38.00,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53785,20,No,,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53786,20,Yes,2.79,Female,Yes,38.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53787,20,Yes,3.66,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53788,20,Yes,2.85,Male,Yes,38.00,No,,,,Unknown,A
+53789,20,Yes,2.55,Male,Yes,39.00,No,,,,Unknown,A
+53790,20,No,,Female,Yes,38.00,No,,,,Unknown,A
+53791,20,Yes,2.50,Male,Yes,41.28,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53792,20,Yes,3.63,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53793,20,Yes,4.20,Male,Yes,40.00,No,,,,Unknown,A
+53794,20,Yes,2.10,Male,Yes,37.80,No,,,,Unknown,A
+53795,20,Yes,2.83,Female,Yes,39.20,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53796,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53797,20,Yes,1.40,Male,Yes,34.00,No,,,,Unknown,A
+53798,20,Yes,3.43,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53799,20,Yes,3.03,Female,Yes,39.00,Yes,No,No,Yes,Not Hispanic or Latino/Latina,A
+53800,20,Yes,3.66,Male,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53801,20,Yes,3.62,Female,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53802,20,Yes,3.39,Male,Yes,39.14,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53803,20,Yes,3.63,Female,Yes,39.40,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53804,20,No,,Male,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53805,20,Yes,3.45,Male,Yes,39.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53806,20,Yes,3.14,Male,Yes,38.71,No,,,,Unknown,A
+53807,20,Yes,2.49,Male,Yes,37.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53808,20,Yes,4.03,Male,Yes,39.00,No,,,,Not Hispanic or Latino/Latina,A
+53809,20,Yes,4.03,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53810,20,No,,Male,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53811,20,Yes,3.30,Male,Yes,39.71,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53812,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53813,20,Yes,2.89,Male,Yes,38.00,No,,,,Unknown,A
+53814,20,Yes,3.58,Female,Yes,37.00,No,,,,Unknown,A
+53815,20,Yes,2.39,Male,Yes,36.87,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53816,20,Yes,4.30,Male,Yes,41.00,No,,,,Unknown,A
+53817,20,Yes,3.20,Male,Yes,39.00,No,,,,Not Hispanic or Latino/Latina,A
+53818,20,Yes,4.11,Female,Yes,41.00,Yes,No,Yes,No,Not Hispanic or Latino/Latina,A
+53819,20,No,,Female,No,,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53820,20,Yes,2.51,Female,Yes,34.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53821,20,Yes,3.50,Male,Yes,40.43,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53822,20,Yes,3.22,Male,Yes,40.00,No,,,,Unknown,A
+53823,20,Yes,1.85,Male,Yes,34.43,No,,,,Unknown,A
+53824,20,Yes,2.00,Male,No,,No,,,,Unknown,A
+53825,20,Yes,3.40,Male,Yes,38.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53826,20,Yes,1.50,Male,Yes,32.00,Yes,No,No,Yes,Hispanic or Latino/Latina,A
+53827,20,Yes,3.71,Male,Yes,39.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53828,20,Yes,3.41,Male,Yes,38.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A
+53829,20,Yes,2.60,Male,Yes,40.04,Yes,Yes,No,No,Hispanic or Latino/Latina,A
+53830,20,Yes,2.79,Male,Yes,38.00,No,,,,Unknown,A
+53831,20,No,,Female,Yes,40.00,Yes,Yes,No,No,Not Hispanic or Latino/Latina,A

@@ -1,0 +1,832 @@
+BLIND_ID,VISITID,BLIND_SITE_ID,CTRL_COLL,AUTO,model_site,studycat
+53001,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53002,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53003,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53004,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53005,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53006,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53007,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53008,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53009,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53010,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53011,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53012,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53013,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53014,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53015,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53016,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53017,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53018,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53019,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53020,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53021,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53022,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53023,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53024,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53025,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53026,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53027,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53028,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53029,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53030,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53031,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53032,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53033,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53034,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53035,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53036,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53037,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53038,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53039,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53040,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53041,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53042,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53043,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53044,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53045,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53046,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53047,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53048,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53049,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53050,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53051,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53052,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53053,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53054,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53055,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53056,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53057,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53058,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53059,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53060,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53061,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53062,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53063,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53064,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53065,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53066,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53067,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53068,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53069,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53070,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53071,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53072,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53073,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53074,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53075,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53076,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53077,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53078,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53079,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53080,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53081,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53082,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53083,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53084,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53085,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53086,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53087,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53088,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53089,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53090,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53091,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53092,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53093,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53094,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53095,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53096,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53097,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53098,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53099,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53100,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53101,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53102,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53103,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53104,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53105,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53106,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53107,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53108,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53109,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53110,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53111,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53112,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53113,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53114,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53115,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53116,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53117,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53118,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53119,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53120,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53121,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53122,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53123,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53124,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53125,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53126,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53127,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53128,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53129,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53130,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53131,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53132,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53133,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53134,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53135,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53136,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53137,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53138,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53139,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53140,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53141,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53142,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53143,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53144,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53145,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53146,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53147,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53148,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53149,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53150,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53151,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53152,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53153,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53154,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53155,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53156,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53157,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53158,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53159,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53160,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53161,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53162,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53163,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53164,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53165,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53166,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53167,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53168,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53169,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53170,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53171,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53172,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53173,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53174,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53175,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53176,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53177,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53178,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53179,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53180,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53181,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53182,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53183,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53184,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53185,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53186,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53187,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53188,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53189,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53190,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53191,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53192,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53193,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53194,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53195,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53196,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53197,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53198,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53199,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53200,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53201,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53202,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53203,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53204,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53205,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53206,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53207,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53208,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53209,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53210,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53211,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53212,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53213,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53214,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53215,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53216,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53217,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53218,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53219,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53220,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53221,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53222,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53223,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53224,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53225,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53226,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53227,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53228,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53229,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53230,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53231,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53232,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53233,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53234,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53235,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53236,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53237,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53238,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53239,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53240,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53241,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53242,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53243,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53244,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53245,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53246,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53247,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53248,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53249,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53250,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53251,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53252,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53253,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53254,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53255,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53256,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53257,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53258,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53259,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53260,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53261,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53262,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53263,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53264,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53265,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53266,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53267,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53268,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53269,20,,0:collaborative group,Not Eligible,Yes,Retrospective/Pre-Implementation
+53270,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53271,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53272,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53273,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53274,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53275,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53276,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53277,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53278,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53279,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53280,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53281,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53282,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53283,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53284,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53285,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53286,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53287,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53288,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53289,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53290,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53291,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53292,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53293,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53294,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53295,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53296,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53297,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53298,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53299,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53300,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53301,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53302,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53303,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53304,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53305,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53306,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53307,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53308,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53309,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53310,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53311,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53312,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53313,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53314,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53315,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53316,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53317,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53318,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53319,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53320,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53321,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53322,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53323,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53324,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53325,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53326,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53327,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53328,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53329,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53330,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53331,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53332,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53333,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53334,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53335,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53336,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53337,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53338,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53339,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53340,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53341,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53342,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53343,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53344,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53345,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53346,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53347,20,,0:collaborative group,Not Eligible,Yes,Retrospective/Pre-Implementation
+53348,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53349,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53350,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53351,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53352,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53353,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53354,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53355,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53356,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53357,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53358,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53359,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53360,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53361,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53362,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53363,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53364,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53365,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53366,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53367,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53368,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53369,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53370,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53371,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53372,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53373,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53374,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53375,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53376,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53377,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53378,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53379,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53380,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53381,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53382,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53383,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53384,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53385,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53386,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53387,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53388,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53389,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53390,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53391,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53392,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53393,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53394,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53395,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53396,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53397,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53398,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53399,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53400,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53401,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53402,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53403,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53404,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53405,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53406,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53407,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53408,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53409,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53410,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53411,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53412,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53413,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53414,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53415,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53416,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53417,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53418,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53419,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53420,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53421,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53422,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53423,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53424,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53425,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53426,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53427,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53428,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53429,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53430,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53431,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53432,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53433,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53434,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53435,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53436,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53437,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53438,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53439,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53440,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53441,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53442,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53443,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53444,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53445,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53446,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53447,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53448,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53449,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53450,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53451,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53452,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53453,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53454,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53455,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53456,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53457,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53458,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53459,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53460,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53461,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53462,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53463,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53464,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53465,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53466,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53467,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53468,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53469,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53470,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53471,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53472,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53473,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53474,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53475,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53476,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53477,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53478,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53479,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53480,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53481,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53482,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53483,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53484,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53485,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53486,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53487,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53488,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53489,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53490,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53491,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53492,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53493,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53494,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53495,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53496,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53497,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53498,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53499,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53500,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53501,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53502,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53503,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53504,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53505,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53506,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53507,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53508,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53509,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53510,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53511,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53512,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53513,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53514,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53515,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53516,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53517,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53518,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53519,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53520,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53521,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53522,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53523,20,10,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53524,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53525,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53526,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53527,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53528,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53529,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53530,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53531,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53532,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53533,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53534,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53535,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53536,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53537,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53538,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53539,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53540,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53541,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53542,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53543,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53544,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53545,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53546,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53547,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53548,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53549,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53550,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53551,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53552,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53553,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53554,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53555,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53556,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53557,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53558,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53559,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53560,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53561,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53562,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53563,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53564,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53565,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53566,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53567,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53568,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53569,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53570,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53571,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53572,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53573,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53574,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53575,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53576,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53577,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53578,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53579,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53580,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53581,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53582,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53583,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53584,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53585,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53586,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53587,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53588,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53589,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53590,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53591,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53592,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53593,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53594,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53595,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53596,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53597,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53598,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53599,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53600,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53601,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53602,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53603,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53604,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53605,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53606,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53607,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53608,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53609,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53610,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53611,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53612,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53613,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53614,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53615,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53616,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53617,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53618,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53619,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53620,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53621,20,,0:collaborative group,Not Eligible,Yes,Retrospective/Pre-Implementation
+53622,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53623,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53624,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53625,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53626,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53627,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53628,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53629,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53630,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53631,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53632,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53633,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53634,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53635,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53636,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53637,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53638,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53639,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53640,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53641,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53642,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53643,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53644,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53645,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53646,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53647,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53648,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53649,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53650,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53651,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53652,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53653,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53654,20,,0:collaborative group,Not Eligible,Yes,Retrospective/Pre-Implementation
+53655,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53656,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53657,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53658,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53659,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53660,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53661,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53662,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53663,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53664,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53665,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53666,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53667,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53668,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53669,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53670,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53671,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53672,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53673,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53674,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53675,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53676,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53677,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53678,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53679,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53680,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53681,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53682,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53683,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53684,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53685,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53686,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53687,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53688,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53689,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53690,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53691,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53692,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53693,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53694,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53695,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53696,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53697,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53698,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53699,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53700,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53701,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53702,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53703,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53704,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53705,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53706,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53707,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53708,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53709,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53710,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53711,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53712,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53713,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53714,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53715,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53716,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53717,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53718,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53719,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53720,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53721,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53722,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53723,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53724,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53725,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53726,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53727,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53728,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53729,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53730,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53731,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53732,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53733,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53734,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53735,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53736,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53737,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53738,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53739,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53740,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53741,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53742,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53743,20,6,1:control group,Eligible,No,Prospective/Post-Implementation
+53744,20,1,1:control group,Eligible,No,Prospective/Post-Implementation
+53745,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53746,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53747,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53748,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53749,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53750,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53751,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53752,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53753,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53754,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53755,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53756,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53757,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53758,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53759,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53760,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53761,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53762,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53763,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53764,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53765,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53766,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53767,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53768,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53769,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53770,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53771,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53772,20,8,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53773,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53774,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53775,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53776,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53777,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53778,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53779,20,6,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53780,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53781,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53782,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53783,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53784,20,3,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53785,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53786,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53787,20,4,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53788,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53789,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53790,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53791,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53792,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53793,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53794,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53795,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53796,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53797,20,9,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53798,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53799,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53800,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53801,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53802,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53803,20,5,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53804,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53805,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53806,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53807,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53808,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53809,20,7,0:collaborative group,Eligible,Yes,Prospective/Post-Implementation
+53810,20,3,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53811,20,1,1:control group,Eligible,No,Retrospective/Pre-Implementation
+53812,20,,0:collaborative group,Not Eligible,No,Prospective/Post-Implementation
+53813,20,8,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53814,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53815,20,,0:collaborative group,Not Eligible,No,Retrospective/Pre-Implementation
+53816,20,9,1:control group,Eligible,No,Prospective/Post-Implementation
+53817,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53818,20,10,1:control group,Eligible,No,Prospective/Post-Implementation
+53819,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53820,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53821,20,4,1:control group,Eligible,No,Prospective/Post-Implementation
+53822,20,12,0:collaborative group,Eligible,No,Retrospective/Pre-Implementation
+53823,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53824,20,,1:control group,Not Eligible,No,Retrospective/Pre-Implementation
+53825,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53826,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53827,20,7,0:collaborative group,Eligible,Yes,Retrospective/Pre-Implementation
+53828,20,,0:collaborative group,Not Eligible,Yes,Prospective/Post-Implementation
+53829,20,5,0:collaborative group,Eligible,No,Prospective/Post-Implementation
+53830,20,,1:control group,Not Eligible,No,Prospective/Post-Implementation
+53831,20,12,0:collaborative group,Eligible,No,Prospective/Post-Implementation
