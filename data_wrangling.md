@@ -1,21 +1,8 @@
----
-title: "Data Wrangling"
-author: "Kristin Elgersma"
-output: 
-  github_document:
-    toc: true
-    toc_depth: 1
----
+Data Wrangling
+================
+Kristin Elgersma
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-library(janitor)
-library(lubridate)
-library(DataExplorer)
-```
-
-```{r warning=FALSE, message=FALSE}
+``` r
 # Read in data
 demographics <- read_csv("./data/demographics.csv")
 info <- read_csv("./data/general_information.csv")
@@ -24,7 +11,7 @@ op2 <- read_csv("./data/operative_information.csv")
 postop <- read_csv("./data/postoperative_information.csv")
 ```
 
-```{r warning=FALSE, message=FALSE}
+``` r
 # Select desired variables from each data set
 demographics <- demographics %>%
   dplyr::select(BLIND_ID, WEIGHT, SEX, RACE, RACE_W, RACE_B, other_race, ETHNICITY)
@@ -42,7 +29,7 @@ postop <- postop %>%
   dplyr::select(BLIND_ID, icu_d_day, ICU_T, EXTUB30_ICU_YN, EXTUB30_ICU_T, EXTUB6_ICU_YN, EXTUB6_T, extub_d_day, EXTUB_T, RE_INTUB, re_intub_d_day, RE_INTUB_T, re_extub_d_day, RE_EXTUB_T, ENTERAL, enteral_d_initiate_day, ENTERAL_T_INITIATE, ORAL, enteral_d_oral_initiate_day, ENTERAL_T_ORAL_INITIATE, TUBE)
 ```
 
-```{r warning=FALSE, message=FALSE}
+``` r
 # Store data sets as a list
 data_list <- list(demographics, info, med_review, op2, postop)
 
@@ -86,7 +73,12 @@ d <- df_full %>%
   filter(early_extub == "Yes")
 
 summary(as.factor(d$re_intub)) # There are 5 infants who were reintubated after early extubation
+```
 
+    ##  No Yes 
+    ## 159   5
+
+``` r
 # Modify early extubation variable to be "No" if infants were reintubated
 df_full <- df_full %>%
   mutate(early_extub = case_when(
