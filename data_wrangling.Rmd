@@ -1,3 +1,5 @@
+
+
 ---
 title: "Data Wrangling"
 author: "Kristin Elgersma"
@@ -13,6 +15,7 @@ library(tidyverse)
 library(janitor)
 library(lubridate)
 library(DataExplorer)
+library(magrittr)
 ```
 
 ```{r warning=FALSE, message=FALSE}
@@ -25,7 +28,7 @@ postop <- read_csv("./data/postoperative_information.csv")
 ```
 
 ```{r warning=FALSE, message=FALSE}
-# Select desired variables from each data set
+# Select first round of desired variables from each data set
 demographics <- demographics %>%
   dplyr::select(BLIND_ID, WEIGHT, SEX, RACE, RACE_W, RACE_B, other_race, ETHNICITY)
 
@@ -57,8 +60,9 @@ df_full <- df_full %>%
   mutate(race = case_when(
     race_w == "Yes" ~ "White",
     race_b == "Yes" ~ "Black/AA",
-    other_race == "Yes" ~ "Another race"
-  ))
+    other_race == "Yes" ~ "Another race",
+  )) %>%
+    mutate(race = ifelse(is.na(race), "Unknown", race)) 
 
 # Make y/n chromosomal anomaly variable
 df_full <- df_full %>%
@@ -99,6 +103,8 @@ d <- df_full %>%
   dplyr::select(extub_d_day, early_extub) %>%
   filter(early_extub == "Yes")
 # If early extubation is "Yes", then the days to extubation variable is NA
+# which essentially means that they were all extubated on the day of surgery.
+# Therefore...
 
 # Create new days to extubation variable where these NAs are changed to 0 days
 df_full <- df_full %>%
@@ -107,7 +113,7 @@ df_full <- df_full %>%
     TRUE ~ extub_d_day
   ))
 
-# For those who were reintubated, replace value with days to final extubation
+# For those who were reintubated, replace value with days to final (second) extubation
 df_full <- df_full %>%
   mutate(
     extub_days =
@@ -129,7 +135,7 @@ d <- df_full %>%
   filter(is.na(oral_postextub))
 # There are 36 NAs due to those infants not starting oral feeding before ICU discharge
 
-# Remove NAs and 9 cases with implausible values for time to first oral feed (negative value)
+# Remove NAs (didn't feed orally before ICU discharge) and 9 cases with implausible values for time to first oral feed (negative value)
 df_full <- df_full %>%
   filter(oral_postextub >= 0)
 # n = 277
@@ -138,7 +144,7 @@ df_full <- df_full %>%
 df_full <- df_full %>%
   mutate(cc_time = pmax(no_xclamp_t, xclamp_t, na.rm = TRUE))
 
-# Modify CPB time variable to be 0 if there was no CPB used
+# Modify cardiopulmonary bypass (CPB) time variable to be 0 if there was no CPB used
 df_full <- df_full %>%
   mutate(cpb_time = case_when(
     bypass == "No" ~ 0,
@@ -163,10 +169,30 @@ df_full <- df_full %>%
     )
   )
 
-
 # Select variables for final data set
 df_final <- df_full %>%
   dplyr::select(blind_id, blind_site_id, sex, race, hispanic, diagnosis, chrom_anomaly, proc_age, op_w, cpb_time, cc_time, early_extub, extub_days, enteral_d_oral_initiate_day, enteral_t_oral_initiate, oral_postextub)
 
-# Next: check missingness, distribution, etc.
+# Change variables to factors
+# Create vector with columns to change to factors
+cols <- c("blind_id", "blind_site_id", "sex", "race", "hispanic", "diagnosis", "chrom_anomaly", "early_extub")
+
+# Change all to factors
+df_final %<>% mutate_at(cols, factor)
+
+# Write .rds
+write_rds(df_final, "./source/df_final.rds")
 ```
+
+### Data Exploration
+
+```{r warning=FALSE, message=FALSE}
+plot_missing(df_final)
+# No missingness
+```
+
+```{r warning=FALSE, message=FALSE}
+plot_histogram(df_final) # look at continuous distribution
+plot_bar(df_final) # look at categorical distribution
+```
+
