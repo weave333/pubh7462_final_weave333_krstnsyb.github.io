@@ -9,8 +9,7 @@ Final Codebook
 -   sex:
     -   Male, Female
 -   race:
-    -   White, Black/AA, Another race
-    -   (19 NAs)
+    -   White, Black/AA, Another race, Unknown
 -   hispanic: Hispanic/Latinx ethnicity
     -   Yes/No
 -   diagnosis: Cardiac diagnosis
