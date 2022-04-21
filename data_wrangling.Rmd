@@ -13,6 +13,7 @@ library(tidyverse)
 library(janitor)
 library(lubridate)
 library(DataExplorer)
+library(magrittr)
 ```
 
 ```{r warning=FALSE, message=FALSE}
@@ -168,5 +169,13 @@ df_full <- df_full %>%
 df_final <- df_full %>%
   dplyr::select(blind_id, blind_site_id, sex, race, hispanic, diagnosis, chrom_anomaly, proc_age, op_w, cpb_time, cc_time, early_extub, extub_days, enteral_d_oral_initiate_day, enteral_t_oral_initiate, oral_postextub)
 
-# Next: check missingness, distribution, etc.
+# Change variables to factors
+# Create vector with columns to change to factors
+cols <- c("blind_id", "blind_site_id", "sex", "race", "hispanic", "diagnosis", "chrom_anomaly", "early_extub")
+
+# Change all to factors
+df_final %<>% mutate_at(cols, factor)
+
+# Write .rds
+write_rds(df_final, "./source/df_final.rds")
 ```
