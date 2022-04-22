@@ -44,11 +44,11 @@ p <- ggplot() +
     aes(
       x = enteral_d_oral_initiate_day,
       fill = diagnosis
-    ),
+    ), 
     bins = 10, alpha = 0.8
   ) +
   scale_fill_manual(
-    name = "Diagnosis",
+    name = " ",
     labels = c("Coarcation of the aorta", "Tetralogy of Fallot"),
     values = c(CoA = "#371c38", ToF = "#e3c559")
   ) +
@@ -60,7 +60,7 @@ p <- ggplot() +
     ),
     plot.caption = element_text(
       face = "italic",
-      size = 6
+      size = 7
     ),
     legend.position = "bottom"
   ) +
@@ -68,12 +68,11 @@ p <- ggplot() +
     breaks = seq(0, 10, 1), lim = c(0, 10)
   ) +
   labs(
-    title = "Days to initiation of oral feeding after infant surgical repair for \n Coarctation of the aorta or Tetralogy of Fallot",
+    title = "Postextubation days to initiation of oral feeding after infant surgical repair for \n Coarctation of the aorta or Tetralogy of Fallot",
     caption = "Note: 4 outliers not pictured at 18, 26, 31, and 58 days"
   ) +
-  xlab("Day of oral feeding initiation") +
+  xlab("Postextubation day of oral feeding initiation") +
   ylab("Number of infants")
-
 
 # Create data frame with mean and median
 df_stats <- df_final %>%
@@ -102,11 +101,4 @@ p +
   annotate("text", x = 1.90, y = 190, label = "median", size = 2.5) + # Add label
   coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot
 
-
-
 ```
-
-### RQ1 data visualization #2
-
-
-At what times of day was initiation of oral feeding most common?
