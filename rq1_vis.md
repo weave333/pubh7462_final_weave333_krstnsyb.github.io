@@ -20,7 +20,7 @@ p <- ggplot() +
       x = enteral_d_oral_initiate_day,
       fill = diagnosis
     ), 
-    bins = 10, alpha = 0.8
+    bins = 12, alpha = 0.8
   ) +
   scale_fill_manual(
     name = " ",
@@ -40,11 +40,7 @@ p <- ggplot() +
     legend.position = "bottom"
   ) +
   scale_x_continuous(
-<<<<<<< HEAD
     breaks = seq(0, 10, 1), lim = c(-1, 10)
-=======
-    breaks = seq(0, 10, 1), lim = c(0, 10)
->>>>>>> d01ad7c033b5a39a2ce3958068e4b34cd97ff10b
   ) +
   labs(
     title = "Postextubation days to initiation of oral feeding after infant surgical repair for \n Coarctation of the aorta or Tetralogy of Fallot",
@@ -78,11 +74,7 @@ p +
   ) +
   annotate("text", x = 1, y = 190, label = "mean", size = 2.5) + # Add label
   annotate("text", x = 1.90, y = 190, label = "median", size = 2.5) + # Add label
-<<<<<<< HEAD
-  coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot 
-=======
   coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot
->>>>>>> d01ad7c033b5a39a2ce3958068e4b34cd97ff10b
 ```
 
 <img src="rq1_vis_files/figure-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
