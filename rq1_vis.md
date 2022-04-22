@@ -74,7 +74,7 @@ p +
   ) +
   annotate("text", x = 1, y = 190, label = "mean", size = 2.5) + # Add label
   annotate("text", x = 1.90, y = 190, label = "median", size = 2.5) + # Add label
-  coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot
+  coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot 
 ```
 
 <img src="rq1_vis_files/figure-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
