@@ -43,7 +43,7 @@ p <- ggplot() +
     breaks = seq(0, 10, 1), lim = c(-1, 10)
   ) +
   labs(
-    title = "Postextubation days to initiation of oral feeding after infant surgical repair for \n Coarctation of the aorta or Tetralogy of Fallot",
+    title = "Postextubation days to oral feeding initiation after infant surgical repair for \n Coarctation of the aorta or Tetralogy of Fallot",
     caption = "Note: 4 outliers not pictured at 18, 26, 31, and 58 days"
   ) +
   xlab("Postextubation day of oral feeding initiation") +
@@ -72,8 +72,8 @@ p +
     linetype = "solid",
     alpha = 0.5
   ) +
-  annotate("text", x = 1, y = 190, label = "mean", size = 2.5) + # Add label
-  annotate("text", x = 1.90, y = 190, label = "median", size = 2.5) + # Add label
+  annotate("text", x = 1, y = 190, label = "median", size = 2.5) + # Add label
+  annotate("text", x = 1.90, y = 190, label = "mean", size = 2.5) + # Add label
   coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot
 ```
 
