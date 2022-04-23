@@ -1,5 +1,5 @@
 ---
-title: 'RQ 1 Visualizations'
+title: 'RQ 1 Visualization 1'
 output: 
   github_document:
     toc: true

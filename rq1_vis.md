@@ -1,4 +1,4 @@
-RQ 1 Visualizations
+RQ 1 Visualization 1
 ================
 
 ``` r
