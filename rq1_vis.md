@@ -43,7 +43,7 @@ p <- ggplot() +
     breaks = seq(0, 10, 1), lim = c(-1, 10)
   ) +
   labs(
-    title = "Postextubation days to initiation of oral feeding after infant surgical repair for \n Coarctation of the aorta or Tetralogy of Fallot",
+    title = "Postextubation days to oral feeding initiation after infant surgical repair for \n Coarctation of the aorta or Tetralogy of Fallot",
     caption = "Note: 4 outliers not pictured at 18, 26, 31, and 58 days"
   ) +
   xlab("Postextubation day of oral feeding initiation") +
@@ -58,7 +58,7 @@ df_stats <- df_final %>%
 
 # Add mean and median lines to original ggplot
 p +
-  geom_vline( # Add mean line
+  geom_vline( # Add mean line 
     data = df_stats,
     aes(xintercept = mean),
     col = "black",
@@ -72,9 +72,9 @@ p +
     linetype = "solid",
     alpha = 0.5
   ) +
-  annotate("text", x = 1, y = 190, label = "mean", size = 2.5) + # Add label
-  annotate("text", x = 1.90, y = 190, label = "median", size = 2.5) + # Add label
-  coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot
+  annotate("text", x = 1, y = 190, label = "median", size = 2.5) + # Add label
+  annotate("text", x = 1.90, y = 190, label = "mean", size = 2.5) + # Add label
+  coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot 
 ```
 
 <img src="rq1_vis_files/figure-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
