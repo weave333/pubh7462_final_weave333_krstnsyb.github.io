@@ -78,33 +78,3 @@ p +
 ```
 
 <img src="rq1_vis_files/figure-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
-
-``` r
-  coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot
-```
-
-    ## <ggproto object: Class CoordCartesian, Coord, gg>
-    ##     aspect: function
-    ##     backtransform_range: function
-    ##     clip: off
-    ##     default: FALSE
-    ##     distance: function
-    ##     expand: TRUE
-    ##     is_free: function
-    ##     is_linear: function
-    ##     labels: function
-    ##     limits: list
-    ##     modify_scales: function
-    ##     range: function
-    ##     render_axis_h: function
-    ##     render_axis_v: function
-    ##     render_bg: function
-    ##     render_fg: function
-    ##     setup_data: function
-    ##     setup_layout: function
-    ##     setup_panel_guides: function
-    ##     setup_panel_params: function
-    ##     setup_params: function
-    ##     train_panel_guides: function
-    ##     transform: function
-    ##     super:  <ggproto object: Class CoordCartesian, Coord, gg>
