@@ -33,12 +33,11 @@ df_vis2 <- df_final %>%
 format_hm <- function(sec) stringr::str_sub(format(sec), end = -4L)
 
 # Create original ggplot
-vis2_gg <- df_vis2 %>%
+p <- df_vis2 %>%
   ggplot(aes(x = hr, y = n)) +
   geom_area(fill = "#6d3d6f", alpha = 0.7, linetype = 1, color = "black") +
   geom_point(aes(text = text_label), alpha = 0.5) +
-  labs(title = "Time of day postoperative oral feeding was initiated 
-       \n for infants undergoing cardiac surgery") +
+  labs(title = "Time of day postoperative oral feeding was initiated \n for infants undergoing cardiac surgery") +
   xlab("Time of day") +
   ylab("# of infants") +
   theme_minimal() +
@@ -50,7 +49,7 @@ vis2_gg <- df_vis2 %>%
   scale_x_time(labels = format_hm) # truncate x axis to hh:mm
 
 # Pass to ggplotly
-p <- ggplotly(vis2_gg, tooltip = "text")
+ggplotly(p, tooltip = "text")
 ```
 
-<iframe src="/Users/kristinelgersma/Dropbox/Kristin Macbook Air/UMN PhD/Spring 2022 Classes/PUBH 7462 - Advanced R/pubh7462_final_weave333_krstnsyb.github.io/index.html" width="100%" height="600" scrolling="no" seamless="seamless" frameBorder="0"></iframe>
+<img src="rq1_vis2_files/figure-gfm/unnamed-chunk-2-1.png" style="display: block; margin: auto;" />
