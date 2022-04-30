@@ -1,0 +1,31 @@
+---
+title: "Relationship between early extubation after infant cardiac surgery and time to first postoperative oral feeds"
+---
+
+<div style= "float : right; position : relative; top: 0px; width : 250px; height : 180px; padding-left: 24px; margin-bottom : 0px; font-size : 9px">
+![__Source:https://meetings.informs.org/wordpress/analytics2018/files/2018/02/phn_300px.jpg__](./docs/phn.jpg)
+
+</div>
+
+
+
+
+
+<font size = "4"> 
+
+## **Research Questions:**
+
+We will explore and visualize two research questions:
+
+1.  On average, how long (hours) did it take to initiate the first oral feed in the ICU after extubation, and at what times of day was initiation of oral feeding most common?
+2.  Was early extubation associated with shorter time to the first postoperative oral feed, and did this differ based on diagnosis (Tetralogy of Fallot or coarctation of the aorta)?
+
+## **Data Source:**
+
+We will use a publicly available data set from the Pediatric Heart Network (<https://www.pediatricheartnetwork.org/public-use-data-sets/>). The Collaborative Learning data set (n=322) available from this site includes variables with reasonable missingness to answer the research questions.
+</font>  
+  
+  
+  
+
+
