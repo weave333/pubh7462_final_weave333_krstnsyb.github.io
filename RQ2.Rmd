@@ -201,7 +201,7 @@ caption {
 ")
 ```
 
-```{r warning= FALSE, echo = FALSE}
+```{r warning= FALSE, echo = FALSE, message = FALSE}
 
 #Linear model to determine associaton
 poiss_model <- glm(enteral_d_oral_initiate_day ~ early_extub +
@@ -218,9 +218,16 @@ poiss_model %>%
 exp(coef(poiss_model)) %>% 
   broom::tidy() %>% 
   knitr::kable(caption = "Relative Risk")
+
+#Confidence interval
+exp(confint(poiss_model)) %>% 
+  knitr::kable(caption = "95% Confidence Interval")
 ```
 <br>
 
 ## Conlusion
 <br>
-We found some stuff
+Based on the model results, we can suggest that early extubation is associated with shorter time to postoperative oral feeding while holding for diagnosis type. Additionally, the diagnosis group also display statistical significance based on reducing the time to the first postoperative oral feed. This conclusion was drawn from the _p-value_ for both outcomes falling below the threshold of significance (< 0.05) along with a 95% confidence interval not including 1 in either outcome. 
+
+Based on the risk ratio, we identified that individuals undergoing early extubation had 0.31 times the rate of incidence for reducing time to postoperative oral feeding and individuals within the tetralogy of fallout diagnosis group had 0.72 times the rate of incidence for reducing time to postoperative oral feeding.
+
