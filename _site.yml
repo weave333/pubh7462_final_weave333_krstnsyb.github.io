@@ -4,17 +4,22 @@ header-includes:
   \usepackage{float}
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Overview"
   right:
     - text: "Data"
-      menu:
-          - text: "Data"
-            href: resume.html
       href: about.html
+    - text: "Analysis"
+      menu:
+        - text: "Page 1"
+          href: blank
+        - text: "Page 2"
+          href: blank
+        - text: "Page 3"
+          href: blank
     - icon: fa-envelope fa-lg
       href: mailto:<weave333@umn.edu>
     - icon: fa-github fa-lg
       href: https://github.com/weave333/pubh7462_final_weave333_krstnsyb.github.io
 output:  
    html_document:
-    theme: cosmo
+    theme: flatly
