@@ -202,11 +202,12 @@ age_avg_d <- (mean(df_final$proc_age))
 age_avg_y <- (mean(df_final$proc_age) / 365)
 ```
 
+<br>
 
-## Summary Statistics
+## Exploratory Data Analysis
 <br>
 <br>
-We will begin the analysis by reviewing the summary statistics on the __df_final__ dataset (n = 322) from the Pediatric Heart Network in order to identify if early extubation has any association with shorter time to the first postoperative oral feeding, and whether this differed based on the diagnosis group, tetralogy of fallout or coarctation of the aorta.
+We will begin the exploratory analysis by reviewing the summary statistics on the _df_final_ dataset (n = 322) from the Pediatric Heart Network in order to identify if early extubation has any association with shorter time to the first postoperative oral feeding, and whether this differed based on the diagnosis group, tetralogy of fallout or coarctation of the aorta.
 <br>
 <br>
 
@@ -243,8 +244,22 @@ sum_stats_final %>%
     gt() %>% 
     fmt_number(columns = 3, decimals = 2) %>% 
     fmt_number(columns = 2, decimals = 2) %>% 
-    tab_header("Summary Statistics")
+    tab_header("Summary Statistics") 
 ```
 <br>
 <br>
-Based on the final dataset, the average age of the individual undergoing surgery was `r age_avg_d` days and `r age_avg_y` years
+Based on the final dataset, the average age of the individual undergoing surgery was **`r age_avg_d`** days, or **`r age_avg_y`** years. The data was relatively clean and the final dataset resulted in no missingness. The summary statistics show that the average number of days to first postoperative oral feeding is **1.90** days, with a standard deviation of **4.44** days. The percent of surgical procedures that had a diagnosis of tetralogy of fallout is **62.82**% and coarctation of the aorta is **37.18**%. The percent of surgical procedures that experienced early extubation (extubation within 6 hours of surgery) is **53.79**% and those that did not experience early extubation is **46.21**%.
+<br>
+<br>
+
+## Visualization
+<br>
+<br>
+
+## Statistcal Analysis Results
+<br>
+<br>
+
+## Conlusion
+<br>
+<br>
