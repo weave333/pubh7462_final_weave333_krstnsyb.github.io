@@ -8,6 +8,7 @@ output: html_document
 library(tidyverse)
 library(lubridate)
 library(gt)
+library(plotly)
 library(paletteer)
 library(ggridges)
 
@@ -98,7 +99,90 @@ Based on the final dataset, the average age of the individual undergoing surgery
 <br>
 
 ## Visualization
+
+```{r results="asis", warning = FALSE, message = FALSE, echo = FALSE}
+#DF for visualizing extubation and days until first post-op feeding
+rq2_figure <- df_rq2 %>% 
+  group_by(blind_id, enteral_d_oral_initiate_day, diagnosis, early_extub) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(
+    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallout', 'CoA' = 'Coarctation of the Aorta')
+  ) %>% 
+  ggplot(aes(x = enteral_d_oral_initiate_day, y = n, fill = early_extub)) + 
+  geom_bar(stat = "identity",  position = "stack") + 
+  labs(y = '# Patients Receiving First Post-Op Oral Feeding',
+       x = '# of Days Until First Post-Op Oral Feeding') +
+  viridis::scale_fill_viridis(
+    name = 'Early Extubation',
+    discrete = T
+  )
+
+#generate ggplotly for first figure
+rq2.1 <- ggplotly(rq2_figure)
+
+#DF for visualizing extubation and days until first post-op feeding by diagnosis group
+rq2_figure_diag <- df_rq2 %>% 
+  group_by(blind_id, enteral_d_oral_initiate_day, diagnosis, early_extub) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(
+    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallout', 'CoA' = 'Coarctation of the Aorta')
+  ) %>% 
+  ggplot(aes(x = enteral_d_oral_initiate_day, y = n, fill = early_extub)) + 
+  geom_bar(stat = "identity",  position = "stack") + 
+  labs(y = '# Patients Receiving First Post-Op Oral Feeding',
+       x = '# of Days Until First Post-Op Oral Feeding') +
+  theme(plot.title.position = 'plot', 
+        plot.title = element_text(hjust = 15)) +
+  facet_grid(~diagnosis) + 
+  viridis::scale_fill_viridis(
+    name = 'Early Extubation',
+    discrete = T
+  )
+
+#generate ggplotly for second figure
+rq2.2 <- ggplotly(rq2_figure_diag)
+
+#DF for visualizing days until first post-op feeding by diagnosis group and extubation status as facets
+rq2_figure_diag_ext <- df_rq2 %>% 
+  group_by(blind_id, enteral_d_oral_initiate_day, diagnosis, early_extub) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(
+    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallout', 'CoA' = 'Coarctation of the Aorta')
+  ) %>% 
+  ggplot(aes(x = enteral_d_oral_initiate_day, y = n)) + 
+  geom_bar(stat = "identity",  position = "stack") + 
+  labs(y = '# Patients Receiving First Post-Op Oral Feeding',
+       x = '# of Days Until First Post-Op Oral Feeding') +
+  facet_grid(early_extub ~ diagnosis) + 
+  viridis::scale_fill_viridis(
+    name = 'Early Extubation',
+    discrete = T
+  )
+
+#generate ggplotly for third figure
+rq2.3 <- ggplotly(rq2_figure_diag_ext)
+```
 <br>
+
+#### **Frequency of Days until Post-Op Oral Feeding By Early Extubation Status**
+
+`r rq2.1`
+
+<br>
+
+#### **Frequency of Days until Post-Op Oral Feeding By Early Extubation Status Grouped by Diagnosis**
+
+`r rq2.2`
+
+<br>
+
+#### **Frequency of Days until Post-Op Oral Feeding Grouped by Early Extubation Status and Diagnosis**
+
+`r rq2.3`
+
 <br>
 
 ## Statistcal Analysis Results
