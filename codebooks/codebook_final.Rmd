@@ -2,11 +2,6 @@
 title: "Final Codebook"
 ---
 
-```{r setup, include=FALSE, echo = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-```
-
 ### Variables in Final Data Set
 <br>
 

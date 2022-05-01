@@ -13,9 +13,9 @@ author: "Kristin Elgersma, Brett Weaver"
 
 ## Motivation
 
+Infants undergoing cardiac surgery frequently struggle with oral feeding skills. Challenges with oral feeding are associated with negative surgical and developmental outcomes and longer hospital length of stay. Longer duration of postoperative intubation has been associated with oral feeding challenges (e.g., tube feeding at hospital discharge). 
 
-[will update]
-
+Early extubation, defined as extubation in the operating room or within 6 hours of arrival to the ICU, could be a modifiable clinical practice target to lower the incidence of oral feeding problems in this population.
 
 
 <br>
@@ -36,7 +36,8 @@ We will use a publicly available data set from the Pediatric Heart Network (<htt
 
 We will explore and visualize two research questions:
 
-1.  On average, how long (hours) did it take to initiate the first oral feed in the ICU after extubation, and at what times of day was initiation of oral feeding most common?
+1.  On average, how long (hours) did it take to initiate the first oral feed in the ICU after extubation, and at what times of day was initiation of oral feeding most common?  
+
 2.  Was early extubation associated with shorter time to the first postoperative oral feed, and did this differ based on diagnosis (Tetralogy of Fallot or coarctation of the aorta)?
 
 
