@@ -1,31 +1,38 @@
 ---
 title: "*Relationship between early extubation after infant cardiac surgery and time to first postoperative oral feeds*"
 author: "Kristin Elgersma, Brett Weaver"
-	
 ---
 
 <div style= "float : right; position : relative; top: 0px; width : 250px; height : 180px; padding-left: 24px; margin-bottom : 0px; font-size : 9px">
-![Source:https://meetings.informs.org/wordpress/analytics2018/files/2018/02/phn_300px.jpg](./docs/phn.jpg)
-
+![](./docs/phn.jpg)
 </div>
-
+<br>
+<br>
 <font size = "4"> 
 
-### Motivation
+
+## Motivation
+
 
 [will update]
 
 
 
+<br>
+<br>
 
-### Data Source:
+## Data Source:
+
 
 We will use a publicly available data set from the Pediatric Heart Network (<https://www.pediatricheartnetwork.org/public-use-data-sets/>). The Collaborative Learning data set (n=322) available from this site includes variables with reasonable missingness to answer the research questions.
 </font>  
 
 
+<br>
+<br>
 
-### Research Questions:
+## Research Questions:
+
 
 We will explore and visualize two research questions:
 
@@ -33,14 +40,18 @@ We will explore and visualize two research questions:
 2.  Was early extubation associated with shorter time to the first postoperative oral feed, and did this differ based on diagnosis (Tetralogy of Fallot or coarctation of the aorta)?
 
 
+<br>
+<br>
 
-### Main Results
+## Main Results
 
 [will update]
 
 
+<br>
+<br>
 
-### Discussion
+## Discussion
 
 [will update]
   
