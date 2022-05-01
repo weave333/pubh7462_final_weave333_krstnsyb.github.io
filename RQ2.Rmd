@@ -258,20 +258,39 @@ Based on the final dataset, the average age of the individual undergoing surgery
 ## Statistcal Analysis Results
 <br>
 
-
+```{r results="asis", warning = FALSE, message = FALSE, echo = FALSE}
+# Add color for kable titles
+cat("
+<style>
+caption {
+      color: black;
+      font-weight: bold;
+      font-size: 1.0em;
+    }
+</style>
+")
+```
 
 ```{r warning= FALSE, echo = FALSE}
+
+#Linear model to determine associaton
 poiss_model <- glm(enteral_d_oral_initiate_day ~ early_extub +
                      diagnosis, data = df_final,
                    family = poisson(link = "log")) 
 
+#Model output with knitr
 poiss_model %>%
   broom::tidy() %>% 
   select(term, estimate, p.value) %>% 
-  knitr::kable()
+  knitr::kable(caption = "Poisson Model Results")
+
+#Relative risk
+exp(coef(poiss_model)) %>% 
+  broom::tidy() %>% 
+  knitr::kable(caption = "Relative Risk")
 ```
 <br>
 
 ## Conlusion
 <br>
-<br>
+We found some stuff
