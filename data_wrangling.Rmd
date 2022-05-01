@@ -182,6 +182,7 @@ df_final %<>% mutate_at(cols, factor)
 
 # Write .rds
 write_rds(df_final, "./source/df_final.rds")
+write_csv(df_final, "./source/df_final.csv")
 ```
 
 ### Data Exploration
