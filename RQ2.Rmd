@@ -30,7 +30,7 @@ theme_set(theme(plot.title = element_text(hjust = 0.5), legend.position = "botto
 
 #Set Scientific notation output and decimal places for knitr
 options(scipen = 999)
-options(digits = 2)
+options(digits = 4)
 ```
 
 
@@ -257,6 +257,19 @@ Based on the final dataset, the average age of the individual undergoing surgery
 
 ## Statistcal Analysis Results
 <br>
+
+
+
+```{r warning= FALSE, echo = FALSE}
+poiss_model <- glm(enteral_d_oral_initiate_day ~ early_extub +
+                     diagnosis, data = df_final,
+                   family = poisson(link = "log")) 
+
+poiss_model %>%
+  broom::tidy() %>% 
+  select(term, estimate, p.value) %>% 
+  knitr::kable()
+```
 <br>
 
 ## Conlusion
