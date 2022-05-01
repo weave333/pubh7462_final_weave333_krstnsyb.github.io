@@ -1,17 +1,14 @@
 ---
 title: "Final Codebook"
-output: 
-  github_document:
-    toc: true
-    toc_depth: 1
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, echo = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
 ### Variables in Final Data Set
+<br>
 
 -   blind_id: Participant ID
 -   blind_site_id: Site ID
@@ -38,3 +35,4 @@ library(tidyverse)
 -   enteral_d\_oral_initiate_day: Time to first postoperative oral feeding (days)
 -   enteral_t\_oral_initiate: Time of day first postoperative oral feeding was initiated (hms)
 -   oral_postextub: Time to first oral feeding after extubation (days)
+

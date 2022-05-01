@@ -4,7 +4,11 @@ navbar:
   title: "Overview"
   right:
     - text: "Data"
-      href: about.html
+      menu:
+        - text: "Data"
+          href: about.html
+        - text: "Codebooks"
+          href: ./codebooks/codebook_final.html
     - text: "Analysis"
       menu:
         - text: "Page 1"

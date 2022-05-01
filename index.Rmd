@@ -8,7 +8,7 @@ author: "Kristin Elgersma, Brett Weaver"
 </div>
 <br>
 <br>
-<font size = "4"> 
+
 
 
 ## Motivation
