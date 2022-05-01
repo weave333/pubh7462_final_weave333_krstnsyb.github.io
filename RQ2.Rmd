@@ -1,5 +1,5 @@
 ---
-title: "Early Extubation Resulting in Shorter Time to Post-Op Feeding"
+title: "*Early Extubation Resulting in Shorter Time to Post-Op Feeding*"
 output: html_document
 ---
 
@@ -205,8 +205,7 @@ age_avg_y <- (mean(df_final$proc_age) / 365)
 <br>
 
 ## Exploratory Data Analysis
-<br>
-<br>
+
 We will begin the exploratory analysis by reviewing the summary statistics on the _df_final_ dataset (n = 322) from the Pediatric Heart Network in order to identify if early extubation has any association with shorter time to the first postoperative oral feeding, and whether this differed based on the diagnosis group, tetralogy of fallout or coarctation of the aorta.
 <br>
 <br>
