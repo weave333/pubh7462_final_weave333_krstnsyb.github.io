@@ -33,13 +33,23 @@ sum_stats_final %>%
 
 
 
+sum_stats %>%
+  plot_ly(
+  y      = ~enteral_d_oral_initiate_day,
+  color  = ~diagnosis,
+  type   = "box",
+  colors = viridis::viridis_pal(option = "C")(2) 
+) %>%
+  layout(
+    title  = "Distribution of Airbnb Price by Neighbourhood",
+    xaxis  = list(title = "Price")
+  )
+
 
 # plot in ggplot
-time.overall.plot <- time.overall.df %>%
-  ggplot(aes(x = date, y = `number of bites`, colour = breed)) + 
+rq2_plot <- sum_stats %>%
+  ggplot(aes(x = enteral_d_oral_initiate_day, y = diagnosis, colour = oral_postextub)) + 
   geom_point(alpha = 0.3, size = 2) + 
-  geom_line(size = 1, alpha = 0.5) + 
-  geom_smooth(size = 1.5, alpha = 0.5, se = F, method = "lm") + 
   theme(axis.text.y = element_text(color = "black", 
                                    size = 10,  hjust = 1), 
         axis.text.x = element_text(angle = 45, 
@@ -48,19 +58,17 @@ time.overall.plot <- time.overall.df %>%
     x = "Time",
     y = "Number of Bites per Month",
     title = "Number of Bites Over Time"
-  ) + 
-  viridis::scale_colour_viridis(
-    name = "Dog Breed", 
-    discrete = TRUE
-  ) +
-  xlim(c(2015, 2018)) 
+  ) 
+
+rq2_plot 
+
 # print plot as plotly
-ggplotly(time.overall.plot)
+ggplotly(rq2_plot)
 
 
 
 
-
+library(kableExtra)
 
 
 #### POISSON ######
@@ -69,16 +77,14 @@ poiss_model <- glm(enteral_d_oral_initiate_day ~ early_extub +
                      diagnosis, data = df_final,
                    family=poisson(link="log")) 
 
-library(gt)
-
-
-
 poiss_model %>%
   broom::tidy() %>% 
   select(term, estimate, p.value) %>% 
   knitr::kable()
 
-table(df_full$enteral_d_oral_initiate_day)
+exp(coef(poiss_model)) %>% 
+  broom::tidy() %>% 
+  knitr::kable()
 
 
 ###################

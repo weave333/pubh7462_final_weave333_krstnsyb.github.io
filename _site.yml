@@ -3,12 +3,8 @@ output_dir: "."
 navbar:
   title: "Overview"
   right:
-    - text: "Data"
-      menu:
-        - text: "Data"
-          href: about.html
-        - text: "Codebooks"
-          href: ./codebooks/codebook_final.html
+    - text: "Data & Codebooks"
+      href: about.html
     - text: "Analysis"
       menu:
         - text: "RQ1"
