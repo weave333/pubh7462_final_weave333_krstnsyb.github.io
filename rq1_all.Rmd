@@ -1,0 +1,184 @@
+---
+title: "*RQ2*"
+output: html_document
+---
+
+```{r setup, echo = FALSE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(gt)
+library(plotly)
+library(scales)
+library(lubridate)
+library(hms)
+library(paletteer)
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+  out.width = "90%",
+ fig.align = "center",
+  cache = FALSE
+)
+#Set Theme for ggplot2 - centers title and legend at bottom by default
+theme_set(theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+
+#Set Scientific notation output and decimal places for knitr
+options(scipen = 999)
+options(digits = 4)
+```
+
+```{r warning=FALSE, message=FALSE, echo = FALSE}
+# Read in data
+df_final <- read_rds("./source/df_final.rds")
+```
+
+### *Postoperative Time to Initiation of Oral Feeding in the ICU*
+
+Our first research question was concerned with the time to initiation of oral feeding for infants undergoing cardiac surgery for Tetralogy of Fallot or coarctation of the aorta in the Pediatric Heart Network data set (n = 322).
+
+#### Exploratory Data Analysis: Average Time to Feeding Initiation
+
+We began by exploring the average time, in hours, until oral feeding was initiated in the ICU post-extubation.
+
+```{r warning=FALSE, message=FALSE}
+# Create original ggplot
+p <- ggplot() +
+  geom_histogram(
+    data = df_final,
+    aes(
+      x = enteral_d_oral_initiate_day,
+      fill = diagnosis
+    ), 
+    bins = 12, alpha = 0.8
+  ) +
+  scale_fill_manual(
+    name = " ",
+    labels = c("Coarcation of the aorta", "Tetralogy of Fallot"),
+    values = c(CoA = "#371c38", ToF = "#e3c559")
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(
+      size = 10,
+      hjust = 0.5,
+      margin = margin(0, 0, 30, 0)
+    ),
+    plot.caption = element_text(
+      face = "italic",
+      size = 7
+    ),
+    legend.position = "bottom",
+    legend.key.size = unit(.3, 'cm'),
+    legend.title = element_text(size = 7), 
+    legend.text = element_text(size = 7) ,
+    axis.title.x = element_text(size = 8),
+    axis.title.y = element_text(size = 8)
+  ) +
+  scale_x_continuous(
+    breaks = seq(0, 10, 1), lim = c(-1, 10)
+  ) +
+  labs(
+    title = "Figure 1. Postextubation days to oral feeding initiation after infant surgical repair 
+    for Coarctation of the aorta or Tetralogy of Fallot",
+    caption = "Note: 4 outliers not pictured at 18, 26, 31, and 58 days"
+  ) +
+  xlab("Postextubation day of oral feeding initiation") +
+  ylab("Number of infants")
+
+# Create data frame with mean and median
+df_stats <- df_final %>%
+  summarize(
+    mean = mean(enteral_d_oral_initiate_day),
+    median = median(enteral_d_oral_initiate_day)
+  )
+
+# Add mean and median lines to original ggplot
+p +
+  geom_vline( # Add mean line 
+    data = df_stats,
+    aes(xintercept = mean),
+    col = "black",
+    linetype = "dashed",
+    alpha = 0.5
+  ) +
+  geom_vline( # Add median line
+    data = df_stats,
+    aes(xintercept = median),
+    col = "black",
+    linetype = "solid",
+    alpha = 0.5
+  ) +
+  annotate("text", x = 1, y = 190, label = "median", size = 2.5) + # Add label
+  annotate("text", x = 1.90, y = 190, label = "mean", size = 2.5) + # Add label
+  coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot 
+```
+
+##### *Notes*
+
+As visualized in the Figure 1, the median time to oral feeding initiation after extubation was:
+
+-   Mean (SD): `r mean(df_final$enteral_d_oral_initiate_day)` (`r sd(df_final$enteral_d_oral_initiate_day)`) days
+
+-   Median: 1 day
+
+-   Range: `r min(df_final$enteral_d_oral_initiate_day)` - `r max(df_final$enteral_d_oral_initiate_day)` days).
+
+Most infants began feeding orally between the day of extubation and two days post-extubation. This trend held for both diagnoses. There were four outliers with very long times to feeding initiation (18, 26, 31, and 58 days). Two of these infants underwent surgery for Tetralogy of Fallot, and two for coarctation of the aorta.
+
+
+#### Exploratory Data Analysis: Average Time of Day for Feeding Initiation
+
+Next, we visually examined patterns in the time of day at which oral feeding was initiated.
+
+```{r warning=FALSE, message=FALSE}
+# Create data set with variables to count oral feed initiation at every hour
+df_vis2 <- df_final %>%
+  mutate(
+    oral_t = as.POSIXct(enteral_t_oral_initiate),
+    oral_count = floor_date(oral_t, "hour"), # round time to nearest hour
+    hr = lubridate::hour(oral_count)
+  ) %>% # pull out the hour for counting
+  count(hr) %>% # create variable with counts per hour
+  mutate(
+    hr = hms::hms(hours = hr), # turn integer into hms type
+    hr2 = as.character(hr), # create second variable to use in hover text
+    hr2 = str_sub(hr, start = 1, end = 5), # keep only hours and minutes for hover text
+    text_label = str_c( # adding text for the tooltip
+      "\nHour of day - ", hr2,
+      "\n# starting oral feeds - ", n
+    )
+  )
+
+# Create function to be able to truncate x axis labels to hh:mm in ggplot
+format_hm <- function(sec) stringr::str_sub(format(sec), end = -4L)
+
+# Create original ggplot
+p <- df_vis2 %>%
+  ggplot(aes(x = hr, y = n)) +
+  geom_area(fill = "#6d3d6f", alpha = 0.7, linetype = 1, color = "black") +
+  geom_segment(aes(x = 25200, y = -1, xend = 25200, yend = 23), color = "gray", linetype = "dotted", show.legend = FALSE) +
+  geom_segment(aes(x = 68400, y = -1, xend = 68400, yend = 23), color = "gray", linetype = "dotted", show.legend = FALSE) +
+  geom_point(aes(text = text_label), alpha = 0.5) +
+  labs(title = "Figure 2. Time of day postoperative oral feeding was initiated \n for infants undergoing cardiac surgery") +
+  xlab("Time of day") +
+  ylab("# of infants") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(
+      hjust = 0.5,
+    )
+  ) +
+  scale_x_time(labels = format_hm) +  # truncate x axis to hh:mm
+  annotate("text", x = 17500, y = 22, size = 2.5, label = "7 am shift change →") +
+  annotate("text", x = 60700, y = 22, size = 2.5, label = "7 pm shift change →")
+
+# Pass to ggplotly
+ggplotly(p, tooltip = "text")
+```
+
+##### *Notes*
+
+As visualized in Figure 2, the most common time of day at which oral feeding was initiated was 10:00 am (n = 21 infants). Evening hours were also common, with 17 infants started on oral feeding at both 8:00 pm and 9:00 pm. A third peak in frequency can be seen between midnight and 2:00 am.
+
+**Dotted lines** demonstrate the most common times for shift change (7 am and 7 pm). A clear increase in oral feeding initiation can be seen after these times, suggesting that the decision to begin oral feeding may be driven by the hospital schedule rather than by infant cues/clinical readiness. A third common time for shift change is 11:00 pm, which may explain the increase in feeding initiation around midnight.
