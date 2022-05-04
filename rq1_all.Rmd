@@ -29,13 +29,13 @@ df_final <- read_rds("./source/df_final.rds")
 ```
 <br>
 
-### *Postoperative Time to Initiation of Oral Feeding in the ICU*
+## Postoperative Time to Initiation of Oral Feeding in the ICU
 
 Our first research question was concerned with the time to initiation of oral feeding for infants undergoing cardiac surgery for Tetralogy of Fallot or coarctation of the aorta in the Pediatric Heart Network data set (n = 322).
 
 <br>
 
-#### 1. Exploratory Data Analysis: Average Time to Feeding Initiation
+### **1. Exploratory Data Analysis: Average Time to Feeding Initiation**
 
 We began by exploring the average time, in hours, until oral feeding was initiated in the ICU post-extubation.
 
@@ -115,7 +115,7 @@ p +
 ```
 <br>
 
-##### *Notes*
+#### *Notes*
 
 As visualized in the Figure 1, the median time to oral feeding initiation after extubation was:
 
@@ -130,7 +130,7 @@ Most infants began feeding orally between the day of extubation and two days pos
 <br>
 <br>
 
-#### 2. Exploratory Data Analysis: Average Time of Day for Feeding Initiation
+### **2. Exploratory Data Analysis: Average Time of Day for Feeding Initiation**
 
 Next, we visually examined patterns in the time of day at which oral feeding was initiated.
 
@@ -184,7 +184,7 @@ ggplotly(p, tooltip = "text")
 ```
 <br>
 
-##### *Notes*
+#### *Notes*
 
 As visualized in Figure 2, the most common time of day at which oral feeding was initiated was 10:00 am (n = 21 infants). Evening hours were also common, with 17 infants started on oral feeding at both 8:00 pm and 9:00 pm. A third peak in frequency can be seen between midnight and 2:00 am.
 
