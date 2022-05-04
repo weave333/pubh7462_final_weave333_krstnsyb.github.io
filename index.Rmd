@@ -24,9 +24,11 @@ Early extubation, defined as extubation in the operating room or within 6 hours 
 ## Data Source:
 
 
-We used publicly available data set from the Pediatric Heart Network (<https://www.pediatricheartnetwork.org/public-use-data-sets/>). The Collaborative Learning data set (n=322) available from this site includes variables with reasonable missingness to answer the research questions.
+We used publicly available data set from the Pediatric Heart Network (<https://www.pediatricheartnetwork.org/public-use-data-sets/>). The Collaborative Learning data set available from this site includes data from a study testing a clinical practice guideline change, in which 5 hospitals implemented a new policy focused on early extubation. 
 
-Access to the individual datasets as well as the individual codebooks used on this project can be found in this [Google Drive folder](https://drive.google.com/drive/folders/1nEju46WGxUcpoGwxt1o80tLt_MeIVnuo).
+Infants undergoing surgery for Tetralogy of Fallot or coarctation of the aorta were included. Data were collected retrospectively from the 12 months prior to the clinical practice change and prospectively from the 12 months afterward. 
+
+The final data set (n=322) included variables with reasonable missingness to answer the research questions. Access to the individual datasets as well as the individual codebooks used on this project can be found in this [Google Drive folder](https://drive.google.com/drive/folders/1nEju46WGxUcpoGwxt1o80tLt_MeIVnuo).
 
 <br>
 <br>
@@ -36,7 +38,7 @@ Access to the individual datasets as well as the individual codebooks used on th
 
 We will explore and visualize two research questions:
 
-1.  On average, how long (hours) did it take to initiate the first oral feed in the ICU after extubation, and at what times of day was initiation of oral feeding most common?  
+1.  On average, how long (days) did it take to initiate the first oral feed in the ICU after extubation, and at what times of day was initiation of oral feeding most common?  
 
 2.  Was early extubation associated with shorter time to the first postoperative oral feed, and did this differ based on diagnosis (Tetralogy of Fallot or coarctation of the aorta)?
 
