@@ -14,34 +14,34 @@ library(lubridate)
 library(hms)
 library(paletteer)
 
-#Controlling figure output in markdown
-knitr::opts_chunk$set(
-  out.width = "90%",
- fig.align = "center",
-  cache = FALSE
-)
+
 #Set Theme for ggplot2 - centers title and legend at bottom by default
 theme_set(theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
 
 #Set Scientific notation output and decimal places for knitr
 options(scipen = 999)
-options(digits = 4)
+options(digits = 2)
 ```
 
 ```{r warning=FALSE, message=FALSE, echo = FALSE}
 # Read in data
 df_final <- read_rds("./source/df_final.rds")
 ```
+<br>
 
 ### *Postoperative Time to Initiation of Oral Feeding in the ICU*
 
 Our first research question was concerned with the time to initiation of oral feeding for infants undergoing cardiac surgery for Tetralogy of Fallot or coarctation of the aorta in the Pediatric Heart Network data set (n = 322).
 
-#### Exploratory Data Analysis: Average Time to Feeding Initiation
+<br>
+
+#### 1. Exploratory Data Analysis: Average Time to Feeding Initiation
 
 We began by exploring the average time, in hours, until oral feeding was initiated in the ICU post-extubation.
 
-```{r warning=FALSE, message=FALSE}
+<br>
+
+```{r warning=FALSE, message=FALSE, echo = FALSE, out.width = "70%", out.height = "70%"}
 # Create original ggplot
 p <- ggplot() +
   geom_histogram(
@@ -113,6 +113,7 @@ p +
   annotate("text", x = 1.90, y = 190, label = "mean", size = 2.5) + # Add label
   coord_cartesian(ylim = c(0, 170), clip = "off") # Allow for annotation outside of the plot 
 ```
+<br>
 
 ##### *Notes*
 
@@ -122,16 +123,20 @@ As visualized in the Figure 1, the median time to oral feeding initiation after 
 
 -   Median: 1 day
 
--   Range: `r min(df_final$enteral_d_oral_initiate_day)` - `r max(df_final$enteral_d_oral_initiate_day)` days).
+-   Range: `r min(df_final$enteral_d_oral_initiate_day)` - `r max(df_final$enteral_d_oral_initiate_day)` days.
 
 Most infants began feeding orally between the day of extubation and two days post-extubation. This trend held for both diagnoses. There were four outliers with very long times to feeding initiation (18, 26, 31, and 58 days). Two of these infants underwent surgery for Tetralogy of Fallot, and two for coarctation of the aorta.
 
+<br>
+<br>
 
-#### Exploratory Data Analysis: Average Time of Day for Feeding Initiation
+#### 2. Exploratory Data Analysis: Average Time of Day for Feeding Initiation
 
 Next, we visually examined patterns in the time of day at which oral feeding was initiated.
 
-```{r warning=FALSE, message=FALSE}
+<br>
+
+```{r warning=FALSE, message=FALSE, echo = FALSE, out.width = "70%", out.height = "70%"}
 # Create data set with variables to count oral feed initiation at every hour
 df_vis2 <- df_final %>%
   mutate(
@@ -166,6 +171,7 @@ p <- df_vis2 %>%
   theme_minimal() +
   theme(
     plot.title = element_text(
+      size = 10,
       hjust = 0.5,
     )
   ) +
@@ -176,6 +182,7 @@ p <- df_vis2 %>%
 # Pass to ggplotly
 ggplotly(p, tooltip = "text")
 ```
+<br>
 
 ##### *Notes*
 
