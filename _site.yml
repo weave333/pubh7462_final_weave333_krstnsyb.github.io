@@ -7,8 +7,8 @@ navbar:
       href: about.html
     - text: "Analysis"
       menu:
-        - text: "RQ1"
-          href: about.html
+        - text: "Timing of Oral Feeding Initiation"
+          href: rq1_all.html
         - text: "Early Extubation Association"
           href: RQ2.html
     - icon: fa-envelope fa-lg
