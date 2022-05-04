@@ -123,7 +123,7 @@ As visualized in the Figure 1, the median time to oral feeding initiation after 
 
 -   Median: 1 day
 
--   Range: `r min(df_final$enteral_d_oral_initiate_day)` - `r max(df_final$enteral_d_oral_initiate_day)` days.
+-   Range: `r min(df_final$enteral_d_oral_initiate_day)` - `r max(df_final$enteral_d_oral_initiate_day)` days
 
 Most infants began feeding orally between the day of extubation and two days post-extubation. This trend held for both diagnoses. There were four outliers with very long times to feeding initiation (18, 26, 31, and 58 days). Two of these infants underwent surgery for Tetralogy of Fallot, and two for coarctation of the aorta.
 
