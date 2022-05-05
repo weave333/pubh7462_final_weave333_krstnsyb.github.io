@@ -53,7 +53,7 @@ age_avg_y <- round(mean(df_rq2$proc_age) / 365, 2)
 
 ## Exploratory Data Analysis
 
-We will begin the exploratory analysis by reviewing the summary statistics on the _df_final_ dataset (n = 322) from the Pediatric Heart Network in order to identify if early extubation has any association with shorter time to the first postoperative oral feeding, and whether this differed based on the diagnosis group, tetralogy of fallout or coarctation of the aorta.
+We will begin the exploratory analysis by reviewing the summary statistics on the _df_final_ dataset (n = 322) from the Pediatric Heart Network in order to identify if early extubation has any association with shorter time to the first postoperative oral feeding, and whether this differed based on the diagnosis group, Tetralogy of Fallot or coarctation of the aorta.
 <br>
 <br>
 
@@ -94,7 +94,7 @@ sum_stats_final %>%
 ```
 <br>
 <br>
-Based on the final dataset, the average age of the individual undergoing surgery was **`r age_avg_d`** days, or **`r age_avg_y`** years. The data was relatively clean and the final dataset resulted in no missingness. The summary statistics show that the average number of days to first postoperative oral feeding is **1.90** days, with a standard deviation of **4.44** days. The percent of surgical procedures that had a diagnosis of tetralogy of fallout is **62.82**% and coarctation of the aorta is **37.18**%. The percent of surgical procedures that experienced early extubation (extubation within 6 hours of surgery) is **53.79**% and those that did not experience early extubation is **46.21**%.
+Based on the final dataset, the average age of the individual undergoing surgery was **`r age_avg_d`** days, or **`r age_avg_y`** years. The data was relatively clean and the final dataset resulted in no missingness. The summary statistics show that the average number of days to first postoperative oral feeding is **1.90** days, with a standard deviation of **4.44** days. The percent of surgical procedures that had a diagnosis of Tetralogy of Fallot is **62.82**% and coarctation of the aorta is **37.18**%. The percent of surgical procedures that experienced early extubation (extubation within 6 hours of surgery) is **53.79**% and those that did not experience early extubation is **46.21**%.
 <br>
 <br>
 
@@ -107,7 +107,7 @@ rq2_figure <- df_rq2 %>%
   count() %>% 
   ungroup() %>% 
   mutate(
-    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallout', 'CoA' = 'Coarctation of the Aorta')
+    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallot', 'CoA' = 'Coarctation of the Aorta')
   ) %>% 
   ggplot(aes(x = enteral_d_oral_initiate_day, y = n, fill = early_extub)) + 
   geom_bar(stat = "identity",  position = "stack") + 
@@ -127,7 +127,7 @@ rq2_figure_diag <- df_rq2 %>%
   count() %>% 
   ungroup() %>% 
   mutate(
-    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallout', 'CoA' = 'Coarctation of the Aorta')
+    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallot', 'CoA' = 'Coarctation of the Aorta')
   ) %>% 
   ggplot(aes(x = enteral_d_oral_initiate_day, y = n, fill = early_extub)) + 
   geom_bar(stat = "identity",  position = "stack") + 
@@ -150,7 +150,7 @@ rq2_figure_diag_ext <- df_rq2 %>%
   count() %>% 
   ungroup() %>% 
   mutate(
-    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallout', 'CoA' = 'Coarctation of the Aorta')
+    diagnosis = recode(diagnosis, 'ToF' = 'Tetralogy of Fallot', 'CoA' = 'Coarctation of the Aorta')
   ) %>% 
   ggplot(aes(x = enteral_d_oral_initiate_day, y = n)) + 
   geom_bar(stat = "identity",  position = "stack") + 
@@ -185,9 +185,16 @@ rq2.3 <- ggplotly(rq2_figure_diag_ext)
 
 <br>
 
+
 ## Statistcal Analysis Results
 <br>
 
+Based on the visualizations, we are able to see that a majority of patients receiving first post-operative oral feeding occurred within 1 - 2 days, with those receiving early extubation resulting in shorter times. The diagnosis of Tetralogy of Fallot also demonstrates shorter times to first post-operative oral feeding when separating the diagnosis in separate grids.
+
+We decided to proceed with testing our hypothesis on early extubation or diagnosis having an association with shorter time to post-operative oral feeding. We fit a Poisson regression model since the outcome or response variable is looking to predict the count or rate of outcome. Additionally, we ran a residuals versus fitted model and checked for overdispersion.
+
+
+$$ log(Time \ to \ first \ postoperative \ oral \ feeding \ (days)) \ = \ a + \beta_1 \ early \ extubation + \beta_2 \ diagnosis$$
 ```{r results="asis", warning = FALSE, message = FALSE, echo = FALSE}
 # Add color for kable titles
 cat("
@@ -200,7 +207,6 @@ caption {
 </style>
 ")
 ```
-
 ```{r warning= FALSE, echo = FALSE, message = FALSE}
 
 #Linear model to determine associaton
@@ -208,26 +214,37 @@ poiss_model <- glm(enteral_d_oral_initiate_day ~ early_extub +
                      diagnosis, data = df_rq2,
                    family = poisson(link = "log")) 
 
+#Plot for only residuals vs fitted
+plot(poiss_model, which = 1)
+
+
 #Model output with knitr
 poiss_model %>%
   broom::tidy() %>% 
   select(term, estimate, p.value) %>% 
   knitr::kable(caption = "Poisson Model Results")
 
-#Relative risk
+
+#Risk ratio
 exp(coef(poiss_model)) %>% 
   broom::tidy() %>% 
-  knitr::kable(caption = "Relative Risk")
+  knitr::kable(caption = "Risk Ratio")
 
 #Confidence interval
 exp(confint(poiss_model)) %>% 
   knitr::kable(caption = "95% Confidence Interval")
+
+#Checking for overdispersion and model fit
+pchisq(poiss_model$deviance, poiss_model$df.residual, lower.tail = FALSE) %>% 
+  broom::tidy() %>% 
+  knitr::kable(caption = "Check for Overdispersion")
+
 ```
 <br>
 
-## Conlusion
+## Conclusion
 <br>
-Based on the model results, we can suggest that early extubation is associated with shorter time to postoperative oral feeding while holding for diagnosis type. Additionally, the diagnosis group also display statistical significance based on reducing the time to the first postoperative oral feed. This conclusion was drawn from the _p-value_ for both outcomes falling below the threshold of significance (< 0.05) along with a 95% confidence interval not including 1 in either outcome. 
+Based on the model results, we can suggest that early extubation is associated with shorter time to postoperative oral feeding while also based on diagnosis type. Additionally, the diagnosis group also display statistical significance based on reducing the time to the first postoperative oral feed. This conclusion was drawn from the _p-value_ for both outcomes falling below the threshold of significance (< 0.05) along with a 95% confidence interval not including 1 in either outcome. 
 
-Based on the risk ratio, we identified that individuals undergoing early extubation had 0.31 times the rate of incidence for reducing time to postoperative oral feeding and individuals within the tetralogy of fallout diagnosis group had 0.72 times the rate of incidence for reducing time to postoperative oral feeding.
+Adjusted for diagnosis, we estimate that infants who received early extubation had a 69% shorter time to postoperative oral feeding (95% CI: 75%-63% shorter time, p<0.001). Additionally, holding early extubation status constant, we estimate that infants undergoing surgery for Tetralogy of Fallot experienced a 28% shorter time to postoperative oral feeding than those undergoing repair for coarctation of the aorta (95% CI: 40%-15% shorter time, p<0.001). 
 
