@@ -25,13 +25,14 @@ Access to the individual datasets as well as the individual codebooks used on th
     -   ToF = Tetralogy of Fallot
 -   chrom_anomaly: Diagnosis of chromosomal anomaly
     -   Yes/No
-    -   includes Trisomy 18, Trisomy 21, 22q deletion syndrome, Cri-du-chat, or another chromosomal anomaly or syndrome
+    -   This was aggregated from binary variables indicating whether the infant was diagnosed with Trisomy 18, Trisomy 21, 22q deletion syndrome, Cri-du-chat, or another chromosomal anomaly or syndrome
 -   proc_age: Age on date of surgery (days)
 -   op_w: Weight at surgery (kgs)
 -   cpb_time: Cardiopulmonary bypass time (minutes)
 -   cc_time: Total aortic cross clamp time (minutes)
 -   early_extub: Patient was extubated within 6 hours after surgery
     -   Yes/No
+    - This was aggregated from binary variables indicating whether the infant was extubated in the OR, within 30 minutes of ICU arrival, or within 6 hours of ICU arrival 
 -   extub_days: Time to final extubation after surgery (days)
 -   enteral_d\_oral_initiate_day: Time to first postoperative oral feeding (days)
 -   enteral_t\_oral_initiate: Time of day first postoperative oral feeding was initiated (hms)
