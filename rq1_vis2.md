@@ -1,7 +1,7 @@
 RQ 1 Visualization 2
 ================
 
-### RQ1 data visualization \#2
+### RQ1 data visualization #2
 
 At what times of day was initiation of oral feeding most common?
 

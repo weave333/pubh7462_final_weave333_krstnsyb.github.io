@@ -195,6 +195,9 @@ We decided to proceed with testing our hypothesis on early extubation or diagnos
 
 
 $$ log(Time \ to \ first \ postoperative \ oral \ feeding \ (days)) \ = \ a + \beta_1 \ early \ extubation + \beta_2 \ diagnosis$$
+Prior to running the model, we ran a simple diagnostic test to plot the residuals vs fitted/predicted values in order to identify if this model is a good fit. We are looking to find most points below 2 or -2 to ensure an appropriate fit. We will also check for overdispersion when running the Poisson model in order to evaluate the ratio of residual deviance to its degree of freedom. 
+
+
 ```{r results="asis", warning = FALSE, message = FALSE, echo = FALSE}
 # Add color for kable titles
 cat("
@@ -207,6 +210,7 @@ caption {
 </style>
 ")
 ```
+
 ```{r warning= FALSE, echo = FALSE, message = FALSE}
 
 #Linear model to determine associaton
@@ -227,7 +231,6 @@ poiss_model %>%
 
 #Risk ratio
 exp(coef(poiss_model)) %>% 
-  broom::tidy() %>% 
   knitr::kable(caption = "Risk Ratio")
 
 #Confidence interval
@@ -236,15 +239,42 @@ exp(confint(poiss_model)) %>%
 
 #Checking for overdispersion and model fit
 pchisq(poiss_model$deviance, poiss_model$df.residual, lower.tail = FALSE) %>% 
-  broom::tidy() %>% 
-  knitr::kable(caption = "Check for Overdispersion")
-
+  knitr::kable(caption = "Check for Overdispersion", col.names = 'p-value')
 ```
 <br>
 
+
+Based on the diagnostic plot having points outside of the expected threshold and the pchisq() test for overdispersion having a significant p-value, we can determine that the model is overdispersed, meaning the variation is higher than would be expected for this particular model. This also means the model is not a good fit.
+
+There are additional tests we could run if this was going more in depth for statistical analysis, but our next step will instead be to run a quasi-Poisson model for a better fit.
+
+<br>
+```{r warning= FALSE, echo = FALSE, message = FALSE}
+
+#Linear model to determine associaton
+poiss_model2 <- glm(enteral_d_oral_initiate_day ~ early_extub +
+                     diagnosis, data = df_rq2,
+                   family = quasipoisson(link = "log")) 
+
+
+#Model output with knitr
+poiss_model2 %>%
+  broom::tidy() %>% 
+  select(term, estimate, p.value) %>% 
+  knitr::kable(caption = "Poisson Model Results")
+
+
+#Risk ratio
+exp(coef(poiss_model2)) %>% 
+  knitr::kable(caption = "Risk Ratio")
+
+#Confidence interval
+exp(confint(poiss_model2)) %>% 
+  knitr::kable(caption = "95% Confidence Interval")
+
+```
+
 ## Conclusion
 <br>
-Based on the model results, we can suggest that early extubation is associated with shorter time to postoperative oral feeding while also based on diagnosis type. Additionally, the diagnosis group also display statistical significance based on reducing the time to the first postoperative oral feed. This conclusion was drawn from the _p-value_ for both outcomes falling below the threshold of significance (< 0.05) along with a 95% confidence interval not including 1 in either outcome. 
-
-Adjusted for diagnosis, we estimate that infants who received early extubation had a 69% shorter time to postoperative oral feeding (95% CI: 75%-63% shorter time, p<0.001). Additionally, holding early extubation status constant, we estimate that infants undergoing surgery for Tetralogy of Fallot experienced a 28% shorter time to postoperative oral feeding than those undergoing repair for coarctation of the aorta (95% CI: 40%-15% shorter time, p<0.001). 
+Based on the model results, we can suggest that early extubation is associated with shorter time to postoperative oral feeding while the new quasi-Poisson model suggests that diagnosis type no longer has significant association for shorter time to postoperative oral feeding. We can therefore estimate that infants who received early extubation had a 69% shorter time to postoperative oral feeding (95% CI: 81%-51% shorter time, p<0.001). 
 

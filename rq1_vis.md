@@ -6,7 +6,7 @@ RQ 1 Visualization 1
 df_final <- read_rds("./source/df_final.rds")
 ```
 
-### RQ1 data visualization \#1
+### RQ1 data visualization #1
 
 On average, how long (days) did it take to initiate the first oral feed
 in the ICU after extubation?

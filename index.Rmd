@@ -48,15 +48,20 @@ We will explore and visualize two research questions:
 
 ## Main Results
 
-[will update]
 
+- We can suggest that infants who received early extubation had a significant association with a shorter (69%) time to postoperative oral feeding compared to infants that did not receive early extubation.
+- Based on our initial hypothesis, the diagnosis type, such as Tetralogy of Fallot and coarctation of the aorta, did not have any association with shorter time to postoperative oral feeding. 
 
 <br>
 <br>
 
 ## Discussion
 
-[will update]
+
+
+Limitations of the second research question include not running additional tests after we identified overdispersion, such as detecting multicollinearity using variance inflation factors (VIF) or even running an additional model after the quasi-Poisson. The negative binomial regression model was another option to test our research question since our initial Poisson model was overdispersed and not a good fit. Additionally, we could have expanded our final dataset which would have allowed us to test more covariates of interest within our model. 
+
+
   
   
 

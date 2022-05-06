@@ -14,7 +14,7 @@
 
 <title>Relationship between early extubation after infant cardiac surgery and time to first postoperative oral feeds</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -63,7 +63,6 @@ if (window.hljs) {
 
 
 
-
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -84,9 +83,6 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
 }
 pre code {
   padding: 0;
@@ -239,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -255,7 +251,7 @@ $(document).ready(function () {
   <a href="about.html">Data &amp; Codebooks</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     Analysis
      
     <span class="caret"></span>
@@ -290,74 +286,49 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><em>Relationship between early extubation
-after infant cardiac surgery and time to first postoperative oral
-feeds</em></h1>
+<h1 class="title toc-ignore"><em>Relationship between early extubation after infant cardiac surgery and time to first postoperative oral feeds</em></h1>
 <h4 class="author">Kristin Elgersma, Brett Weaver</h4>
 
 </div>
 
 
-<div
-style="float : right; position : relative; top: 0px; width : 250px; height : 180px; padding-left: 24px; margin-bottom : 0px; font-size : 9px">
+<div style="float : right; position : relative; top: 0px; width : 250px; height : 180px; padding-left: 24px; margin-bottom : 0px; font-size : 9px">
 <p><img src="docs/phn.jpg" /></p>
 </div>
 <p><br> <br></p>
 <div id="motivation" class="section level2">
 <h2>Motivation</h2>
-<p>Infants undergoing cardiac surgery frequently struggle with oral
-feeding skills. Challenges with oral feeding are associated with
-negative surgical and developmental outcomes and longer hospital length
-of stay. Longer duration of postoperative intubation has been associated
-with oral feeding challenges (e.g., tube feeding at hospital
-discharge).</p>
-<p>Early extubation, defined as extubation in the operating room or
-within 6 hours of arrival to the ICU, could be a modifiable clinical
-practice target to lower the incidence of oral feeding problems in this
-population.</p>
+<p>Infants undergoing cardiac surgery frequently struggle with oral feeding skills. Challenges with oral feeding are associated with negative surgical and developmental outcomes and longer hospital length of stay. Longer duration of postoperative intubation has been associated with oral feeding challenges (e.g., tube feeding at hospital discharge).</p>
+<p>Early extubation, defined as extubation in the operating room or within 6 hours of arrival to the ICU, could be a modifiable clinical practice target to lower the incidence of oral feeding problems in this population.</p>
 <p><br> <br></p>
 </div>
 <div id="data-source" class="section level2">
 <h2>Data Source:</h2>
-<p>We used publicly available data set from the Pediatric Heart Network
-(<a href="https://www.pediatricheartnetwork.org/public-use-data-sets/"
-class="uri">https://www.pediatricheartnetwork.org/public-use-data-sets/</a>).
-The Collaborative Learning data set available from this site includes
-data from a study testing a clinical practice guideline change, in which
-5 hospitals implemented a new policy focused on early extubation.</p>
-<p>Infants undergoing surgery for Tetralogy of Fallot or coarctation of
-the aorta were included. Data were collected retrospectively from the 12
-months prior to the clinical practice change and prospectively from the
-12 months afterward.</p>
-<p>The final data set (n=322) included variables with reasonable
-missingness to answer the research questions. Access to the individual
-datasets as well as the individual codebooks used on this project can be
-found in this <a
-href="https://drive.google.com/drive/folders/1nEju46WGxUcpoGwxt1o80tLt_MeIVnuo">Google
-Drive folder</a>.</p>
+<p>We used publicly available data set from the Pediatric Heart Network (<a href="https://www.pediatricheartnetwork.org/public-use-data-sets/" class="uri">https://www.pediatricheartnetwork.org/public-use-data-sets/</a>). The Collaborative Learning data set available from this site includes data from a study testing a clinical practice guideline change, in which 5 hospitals implemented a new policy focused on early extubation.</p>
+<p>Infants undergoing surgery for Tetralogy of Fallot or coarctation of the aorta were included. Data were collected retrospectively from the 12 months prior to the clinical practice change and prospectively from the 12 months afterward.</p>
+<p>The final data set (n=322) included variables with reasonable missingness to answer the research questions. Access to the individual datasets as well as the individual codebooks used on this project can be found in this <a href="https://drive.google.com/drive/folders/1nEju46WGxUcpoGwxt1o80tLt_MeIVnuo">Google Drive folder</a>.</p>
 <p><br> <br></p>
 </div>
 <div id="research-questions" class="section level2">
 <h2>Research Questions:</h2>
 <p>We will explore and visualize two research questions:</p>
 <ol style="list-style-type: decimal">
-<li><p>On average, how long (days) did it take to initiate the first
-oral feed in the ICU after extubation, and at what times of day was
-initiation of oral feeding most common?</p></li>
-<li><p>Was early extubation associated with shorter time to the first
-postoperative oral feed, and did this differ based on diagnosis
-(Tetralogy of Fallot or coarctation of the aorta)?</p></li>
+<li><p>On average, how long (days) did it take to initiate the first oral feed in the ICU after extubation, and at what times of day was initiation of oral feeding most common?</p></li>
+<li><p>Was early extubation associated with shorter time to the first postoperative oral feed, and did this differ based on diagnosis (Tetralogy of Fallot or coarctation of the aorta)?</p></li>
 </ol>
 <p><br> <br></p>
 </div>
 <div id="main-results" class="section level2">
 <h2>Main Results</h2>
-<p>[will update]</p>
+<ul>
+<li>We can suggest that infants who received early extubation had a significant association with a shorter (69%) time to postoperative oral feeding compared to infants that did not receive early extubation.</li>
+<li>Based on our initial hypothesis, the diagnosis type, such as Tetralogy of Fallot and coarctation of the aorta, did not have any association with shorter time to postoperative oral feeding.</li>
+</ul>
 <p><br> <br></p>
 </div>
 <div id="discussion" class="section level2">
 <h2>Discussion</h2>
-<p>[will update]</p>
+<p>Limitations of the second research question include not running additional tests after we identified overdispersion, such as detecting multicollinearity using variance inflation factors (VIF) or even running an additional model after the quasi-Poisson. The negative binomial regression model was another option to test our research question since our initial Poisson model was overdispersed and not a good fit. Additionally, we could have expanded our final dataset which would have allowed us to test more covariates of interest within our model.</p>
 </div>
 
 
