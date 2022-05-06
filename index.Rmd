@@ -48,16 +48,17 @@ We will explore and visualize two research questions:
 
 ## Main Results
 
-
+- The average time to oral feeding initiation in the ICU after extubation was Mean (SD) 1.9 (4.44) days; median 1 day; range 0-58 days. There were four outliers with very long times to feeding initiation (18, 26, 31, and 58 days). 
+- The most common time of day at which oral feeding was initiated was 10:00 am (n = 21 infants). Evening hours were also common, with 17 infants started on oral feeding at both 8:00 pm and 9:00 pm. 
 - We can suggest that infants who received early extubation had a significant association with a shorter (69%) time to postoperative oral feeding compared to infants that did not receive early extubation.
-- Based on our initial hypothesis, the diagnosis type, such as Tetralogy of Fallot and coarctation of the aorta, did not have any association with shorter time to postoperative oral feeding. 
+- Based on our initial hypothesis, a diagnosis of Tetralogy of Fallot or coarctation of the aorta did not have any association with shorter time to postoperative oral feeding.
 
 <br>
 <br>
 
 ## Discussion
 
-
+The time of day at which oral feeding was initiated appears to be related to common shift change times, which include 7 am, 7 pm, and (less commonly) 11 pm. A clear increase in oral feeding initiation can be seen after these times, suggesting that the decision to begin oral feeding may be driven by the hospital schedule rather than by infant cues/clinical readiness.
 
 Limitations of the second research question include not running additional tests after we identified overdispersion, such as detecting multicollinearity using variance inflation factors (VIF) or even running an additional model after the quasi-Poisson. The negative binomial regression model was another option to test our research question since our initial Poisson model was overdispersed and not a good fit. Additionally, we could have expanded our final dataset which would have allowed us to test more covariates of interest within our model. 
 
