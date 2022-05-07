@@ -13,7 +13,7 @@
 
 <title>Data and Codebooks</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +238,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -250,7 +254,7 @@ $(document).ready(function () {
   <a href="about.html">Data &amp; Codebooks</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Analysis
      
     <span class="caret"></span>
@@ -290,9 +294,31 @@ $(document).ready(function () {
 </div>
 
 
-<p><br> We used publicly available data set from the Pediatric Heart Network (<a href="https://www.pediatricheartnetwork.org/public-use-data-sets/" class="uri">https://www.pediatricheartnetwork.org/public-use-data-sets/</a>). The Collaborative Learning data set (n=322) available from this site includes variables with reasonable missingness to answer the research questions.</p>
-<p>Access to the individual datasets as well as the individual codebooks used on this project can be found in this <a href="https://drive.google.com/drive/folders/1nEju46WGxUcpoGwxt1o80tLt_MeIVnuo">Google Drive folder</a>.</p>
 <p><br></p>
+<div id="notes-on-data-handling" class="section level3">
+<h3>Notes on Data Handling</h3>
+<p>We used publicly available data set from the Pediatric Heart Network
+(<a href="https://www.pediatricheartnetwork.org/public-use-data-sets/"
+class="uri">https://www.pediatricheartnetwork.org/public-use-data-sets/</a>).
+The Collaborative Learning data set (n=322) available from this site
+includes variables with reasonable missingness to answer the research
+questions.</p>
+<p>Five original data sets were downloaded from the Pediatric Heart
+Network website. These included: 1. Demographics 2. General site
+information 3. Medical review (i.e., diagnosis) 4. Operative information
+5. Postoperative information</p>
+<p>The data sets were joined and, based on an in-progress systematic
+review of risk factors for oral feeding problems in infants with
+congenital heart disease, variables with known association to oral
+feeding outcomes were selected for potential analysis. A list of the
+variables available in the final data set is available below, with notes
+on any transformations.</p>
+<p>Access to the individual datasets as well as the individual codebooks
+used on this project can be found in this <a
+href="https://drive.google.com/drive/folders/1nEju46WGxUcpoGwxt1o80tLt_MeIVnuo">Google
+Drive folder</a>.</p>
+<p><br></p>
+</div>
 <div id="variables-in-final-data-set" class="section level3">
 <h3>Variables in Final Data Set</h3>
 <ul>
@@ -321,7 +347,9 @@ $(document).ready(function () {
 <li>chrom_anomaly: Diagnosis of chromosomal anomaly
 <ul>
 <li>Yes/No</li>
-<li>includes Trisomy 18, Trisomy 21, 22q deletion syndrome, Cri-du-chat, or another chromosomal anomaly or syndrome</li>
+<li>This was aggregated from binary variables indicating whether the
+infant was diagnosed with Trisomy 18, Trisomy 21, 22q deletion syndrome,
+Cri-du-chat, or another chromosomal anomaly or syndrome</li>
 </ul></li>
 <li>proc_age: Age on date of surgery (days)</li>
 <li>op_w: Weight at surgery (kgs)</li>
@@ -330,11 +358,32 @@ $(document).ready(function () {
 <li>early_extub: Patient was extubated within 6 hours after surgery
 <ul>
 <li>Yes/No</li>
+<li>This was aggregated from binary variables indicating whether the
+infant was extubated in the OR, within 30 minutes of ICU arrival, or
+within 6 hours of ICU arrival</li>
 </ul></li>
-<li>extub_days: Time to final extubation after surgery (days)</li>
-<li>enteral_d_oral_initiate_day: Time to first postoperative oral feeding (days)</li>
-<li>enteral_t_oral_initiate: Time of day first postoperative oral feeding was initiated (hms)</li>
-<li>oral_postextub: Time to first oral feeding after extubation (days)</li>
+<li>extub_days: Time to final extubation after surgery (days)
+<ul>
+<li>This variable was transformed to include only the final extubation
+time (e.g., if infants were reintubated after initial extubation)</li>
+</ul></li>
+<li>enteral_d_oral_initiate_day: Time to first postoperative oral
+feeding (days)
+<ul>
+<li>This was transformed from hours to days</li>
+</ul></li>
+<li>enteral_t_oral_initiate: Time of day first postoperative oral
+feeding was initiated
+<ul>
+<li>This was modified to only include the hours, minutes, and seconds,
+and not the date</li>
+</ul></li>
+<li>oral_postextub: Time to first oral feeding after extubation (days)
+<ul>
+<li>This was a new variable created by subtracting the time to the final
+extubation after sugery (extub_days) from the time to first postopative
+oral feeding (enteral_d_oral_initiate_day)</li>
+</ul></li>
 </ul>
 </div>
 
