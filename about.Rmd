@@ -1,18 +1,24 @@
 ---
 title: "*Data and Codebooks*"
 ---
+
 <br>
 
 ### Notes on Data Handling
 
-We used publicly available data set from the Pediatric Heart Network (https://www.pediatricheartnetwork.org/public-use-data-sets/). The Collaborative Learning data set (n=322) available from this site includes variables with reasonable missingness to answer the research questions.
+We used publicly available data set from the Pediatric Heart Network (<https://www.pediatricheartnetwork.org/public-use-data-sets/>). The Collaborative Learning data set (n=322) available from this site includes variables with reasonable missingness to answer the research questions.
 
 Five original data sets were downloaded from the Pediatric Heart Network website. These included:
-1. Demographics
-2. General site information
-3. Medical review (i.e., diagnosis)
-4. Operative information
-5. Postoperative information
+
+1.  Demographics
+
+2.  General site information
+
+3.  Medical review (i.e., diagnosis)
+
+4.  Operative information
+
+5.  Postoperative information
 
 The data sets were joined and, based on an in-progress systematic review of risk factors for oral feeding problems in infants with congenital heart disease, variables with known association to oral feeding outcomes were selected for potential analysis. A list of the variables available in the final data set is available below, with notes on any transformations.
 
@@ -21,7 +27,6 @@ Access to the individual datasets as well as the individual codebooks used on th
 <br>
 
 ### Variables in Final Data Set
-
 
 -   blind_id: Participant ID
 -   blind_site_id: Site ID
@@ -44,14 +49,12 @@ Access to the individual datasets as well as the individual codebooks used on th
 -   cc_time: Total aortic cross clamp time (minutes)
 -   early_extub: Patient was extubated within 6 hours after surgery
     -   Yes/No
-    - This was aggregated from binary variables indicating whether the infant was extubated in the OR, within 30 minutes of ICU arrival, or within 6 hours of ICU arrival 
+    -   This was aggregated from binary variables indicating whether the infant was extubated in the OR, within 30 minutes of ICU arrival, or within 6 hours of ICU arrival
 -   extub_days: Time to final extubation after surgery (days)
-    - This variable was transformed to include only the final extubation time (e.g., if infants were reintubated after initial extubation) 
+    -   This variable was transformed to include only the final extubation time (e.g., if infants were reintubated after initial extubation)
 -   enteral_d\_oral_initiate_day: Time to first postoperative oral feeding (days)
-    - This was transformed from hours to days
+    -   This was transformed from hours to days
 -   enteral_t\_oral_initiate: Time of day first postoperative oral feeding was initiated
-    - This was modified to only include the hours, minutes, and seconds, and not the date
+    -   This was modified to only include the hours, minutes, and seconds, and not the date
 -   oral_postextub: Time to first oral feeding after extubation (days)
-    - This was a new variable created by subtracting the time to the final extubation after sugery (extub_days) from the time to first postopative oral feeding (enteral_d_oral_initiate_day)
-
-
+    -   This was a new variable created by subtracting the time to the final extubation after sugery (extub_days) from the time to first postopative oral feeding (enteral_d\_oral_initiate_day)
