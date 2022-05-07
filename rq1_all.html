@@ -13,7 +13,7 @@
 
 <title>Timing of Oral Feeding Initiation</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -69,6 +69,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -89,6 +90,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -241,7 +245,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -257,7 +261,7 @@ $(document).ready(function () {
   <a href="about.html">Data &amp; Codebooks</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Analysis
      
     <span class="caret"></span>
@@ -292,44 +296,72 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><em>Timing of Oral Feeding Initiation</em></h1>
+<h1 class="title toc-ignore"><em>Timing of Oral Feeding
+Initiation</em></h1>
 
 </div>
 
 
 <p><br></p>
-<div id="postoperative-time-to-initiation-of-oral-feeding-in-the-icu" class="section level2">
+<div id="postoperative-time-to-initiation-of-oral-feeding-in-the-icu"
+class="section level2">
 <h2>Postoperative Time to Initiation of Oral Feeding in the ICU</h2>
-<p>Our first research question was concerned with the time to initiation of oral feeding for infants undergoing cardiac surgery for Tetralogy of Fallot or coarctation of the aorta in the Pediatric Heart Network data set (n = 322).</p>
+<p>Our first research question was concerned with the time to initiation
+of oral feeding for infants undergoing cardiac surgery for Tetralogy of
+Fallot or coarctation of the aorta in the Pediatric Heart Network data
+set (n = 322).</p>
 <p><br></p>
-<div id="exploratory-data-analysis-average-time-to-feeding-initiation" class="section level3">
-<h3><strong>1. Exploratory Data Analysis: Average Time to Feeding Initiation</strong></h3>
-<p>We began by exploring the average time, in hours, until oral feeding was initiated in the ICU post-extubation.</p>
+<div id="exploratory-data-analysis-average-time-to-feeding-initiation"
+class="section level3">
+<h3><strong>1. Exploratory Data Analysis: Average Time to Feeding
+Initiation</strong></h3>
+<p>We began by exploring the average time, in hours, until oral feeding
+was initiated in the ICU post-extubation.</p>
 <p><br></p>
-<p><img src="rq1_all_files/figure-html/unnamed-chunk-2-1.png" width="70%" height="70%" /> <br></p>
+<p><img src="rq1_all_files/figure-html/unnamed-chunk-2-1.png" width="70%" height="70%" />
+<br></p>
 <div id="notes" class="section level4">
 <h4><em>Notes</em></h4>
-<p>As visualized in the Figure 1, the median time to oral feeding initiation after extubation was:</p>
+<p>As visualized in the Figure 1, the median time to oral feeding
+initiation after extubation was:</p>
 <ul>
 <li><p>Mean (SD): 1.9 (4.44) days</p></li>
 <li><p>Median: 1 day</p></li>
 <li><p>Range: 0 - 58 days</p></li>
 </ul>
-<p>Most infants began feeding orally between the day of extubation and two days post-extubation. This trend held for both diagnoses. There were four outliers with very long times to feeding initiation (18, 26, 31, and 58 days). Two of these infants underwent surgery for Tetralogy of Fallot, and two for coarctation of the aorta.</p>
+<p>Most infants began feeding orally between the day of extubation and
+two days post-extubation. This trend held for both diagnoses. There were
+four outliers with very long times to feeding initiation (18, 26, 31,
+and 58 days). Two of these infants underwent surgery for Tetralogy of
+Fallot, and two for coarctation of the aorta.</p>
 <p><br> <br></p>
 </div>
 </div>
-<div id="exploratory-data-analysis-average-time-of-day-for-feeding-initiation" class="section level3">
-<h3><strong>2. Exploratory Data Analysis: Average Time of Day for Feeding Initiation</strong></h3>
-<p>Next, we visually examined patterns in the time of day at which oral feeding was initiated.</p>
+<div
+id="exploratory-data-analysis-average-time-of-day-for-feeding-initiation"
+class="section level3">
+<h3><strong>2. Exploratory Data Analysis: Average Time of Day for
+Feeding Initiation</strong></h3>
+<p>Next, we visually examined patterns in the time of day at which oral
+feeding was initiated.</p>
 <p><br></p>
-<div id="htmlwidget-5083fac82d94e2cb600a" style="width:70%;height:70%;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5083fac82d94e2cb600a">{"x":{"data":[{"x":[0,3600,7200,10800,14400,18000,21600,25200,28800,32400,36000,39600,43200,46800,50400,54000,57600,61200,64800,68400,72000,75600,79200,82800,82800,82800,79200,75600,72000,68400,64800,61200,57600,54000,50400,46800,43200,39600,36000,32400,28800,25200,21600,18000,14400,10800,7200,3600,0,0],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,8,17,17,6,8,11,11,12,12,6,11,12,21,14,16,9,7,10,9,5,14,16,16,0],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,0,0,0.7)","dash":"solid"},"fill":"toself","fillcolor":"rgba(109,61,111,0.7)","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200],"y":[-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(190,190,190,1)","dash":"dot"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400],"y":[-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(190,190,190,1)","dash":"dot"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[0,3600,7200,10800,14400,18000,21600,25200,28800,32400,36000,39600,43200,46800,50400,54000,57600,61200,64800,68400,72000,75600,79200,82800],"y":[16,16,14,5,9,10,7,9,16,14,21,12,11,6,12,12,11,11,8,6,17,17,8,9],"text":["<br />Hour of day - 00:00<br /># starting oral feeds - 16","<br />Hour of day - 01:00<br /># starting oral feeds - 16","<br />Hour of day - 02:00<br /># starting oral feeds - 14","<br />Hour of day - 03:00<br /># starting oral feeds - 5","<br />Hour of day - 04:00<br /># starting oral feeds - 9","<br />Hour of day - 05:00<br /># starting oral feeds - 10","<br />Hour of day - 06:00<br /># starting oral feeds - 7","<br />Hour of day - 07:00<br /># starting oral feeds - 9","<br />Hour of day - 08:00<br /># starting oral feeds - 16","<br />Hour of day - 09:00<br /># starting oral feeds - 14","<br />Hour of day - 10:00<br /># starting oral feeds - 21","<br />Hour of day - 11:00<br /># starting oral feeds - 12","<br />Hour of day - 12:00<br /># starting oral feeds - 11","<br />Hour of day - 13:00<br /># starting oral feeds - 6","<br />Hour of day - 14:00<br /># starting oral feeds - 12","<br />Hour of day - 15:00<br /># starting oral feeds - 12","<br />Hour of day - 16:00<br /># starting oral feeds - 11","<br />Hour of day - 17:00<br /># starting oral feeds - 11","<br />Hour of day - 18:00<br /># starting oral feeds - 8","<br />Hour of day - 19:00<br /># starting oral feeds - 6","<br />Hour of day - 20:00<br /># starting oral feeds - 17","<br />Hour of day - 21:00<br /># starting oral feeds - 17","<br />Hour of day - 22:00<br /># starting oral feeds - 8","<br />Hour of day - 23:00<br /># starting oral feeds - 9"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":0.5,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[17500],"y":[22],"text":"7 am shift change →","hovertext":"","textfont":{"size":9.4488188976378,"color":"rgba(0,0,0,1)"},"type":"scatter","mode":"text","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[60700],"y":[22],"text":"7 pm shift change →","hovertext":"","textfont":{"size":9.4488188976378,"color":"rgba(0,0,0,1)"},"type":"scatter","mode":"text","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":39.5118306351183,"r":7.30593607305936,"b":40.1826484018265,"l":37.2602739726027},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Figure 2. Time of day postoperative oral feeding was initiated <br /> for infants undergoing cardiac surgery","font":{"color":"rgba(0,0,0,1)","family":"","size":13.2835201328352},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-4140,86940],"tickmode":"array","ticktext":["00:00","04:00","08:00","12:00","16:00","20:00","24:00"],"tickvals":[0,14400,28800,43200,57600,72000,86400],"categoryorder":"array","categoryarray":["00:00","04:00","08:00","12:00","16:00","20:00","24:00"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Time of day","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-2.2,24.2],"tickmode":"array","ticktext":["0","5","10","15","20"],"tickvals":[0,5,10,15,20],"categoryorder":"array","categoryarray":["0","5","10","15","20"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"# of infants","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"73e788e4b83":{"x":{},"y":{},"type":"scatter"},"73e45ffc34a":{"x":{},"y":{},"xend":{},"yend":{}},"73e1a6e532d":{"x":{},"y":{},"xend":{},"yend":{}},"73e4116bce9":{"x":{},"y":{},"text":{}},"73e3bcc8661":{"x":{},"y":{}},"73e708a68f2":{"x":{},"y":{}}},"cur_data":"73e788e4b83","visdat":{"73e788e4b83":["function (y) ","x"],"73e45ffc34a":["function (y) ","x"],"73e1a6e532d":["function (y) ","x"],"73e4116bce9":["function (y) ","x"],"73e3bcc8661":["function (y) ","x"],"73e708a68f2":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fbe3ed5401f6964748c4" style="width:70%;height:70%;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fbe3ed5401f6964748c4">{"x":{"data":[{"x":[0,3600,7200,10800,14400,18000,21600,25200,28800,32400,36000,39600,43200,46800,50400,54000,57600,61200,64800,68400,72000,75600,79200,82800,82800,82800,79200,75600,72000,68400,64800,61200,57600,54000,50400,46800,43200,39600,36000,32400,28800,25200,21600,18000,14400,10800,7200,3600,0,0],"y":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,8,17,17,6,8,11,11,12,12,6,11,12,21,14,16,9,7,10,9,5,14,16,16,0],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,0,0,0.7)","dash":"solid"},"fill":"toself","fillcolor":"rgba(109,61,111,0.7)","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200,null,25200,25200],"y":[-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(190,190,190,1)","dash":"dot"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400,null,68400,68400],"y":[-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23,null,-1,23],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(190,190,190,1)","dash":"dot"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[0,3600,7200,10800,14400,18000,21600,25200,28800,32400,36000,39600,43200,46800,50400,54000,57600,61200,64800,68400,72000,75600,79200,82800],"y":[16,16,14,5,9,10,7,9,16,14,21,12,11,6,12,12,11,11,8,6,17,17,8,9],"text":["<br />Hour of day - 00:00<br /># starting oral feeds - 16","<br />Hour of day - 01:00<br /># starting oral feeds - 16","<br />Hour of day - 02:00<br /># starting oral feeds - 14","<br />Hour of day - 03:00<br /># starting oral feeds - 5","<br />Hour of day - 04:00<br /># starting oral feeds - 9","<br />Hour of day - 05:00<br /># starting oral feeds - 10","<br />Hour of day - 06:00<br /># starting oral feeds - 7","<br />Hour of day - 07:00<br /># starting oral feeds - 9","<br />Hour of day - 08:00<br /># starting oral feeds - 16","<br />Hour of day - 09:00<br /># starting oral feeds - 14","<br />Hour of day - 10:00<br /># starting oral feeds - 21","<br />Hour of day - 11:00<br /># starting oral feeds - 12","<br />Hour of day - 12:00<br /># starting oral feeds - 11","<br />Hour of day - 13:00<br /># starting oral feeds - 6","<br />Hour of day - 14:00<br /># starting oral feeds - 12","<br />Hour of day - 15:00<br /># starting oral feeds - 12","<br />Hour of day - 16:00<br /># starting oral feeds - 11","<br />Hour of day - 17:00<br /># starting oral feeds - 11","<br />Hour of day - 18:00<br /># starting oral feeds - 8","<br />Hour of day - 19:00<br /># starting oral feeds - 6","<br />Hour of day - 20:00<br /># starting oral feeds - 17","<br />Hour of day - 21:00<br /># starting oral feeds - 17","<br />Hour of day - 22:00<br /># starting oral feeds - 8","<br />Hour of day - 23:00<br /># starting oral feeds - 9"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":0.5,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[17500],"y":[22],"text":"7 am shift change →","hovertext":"","textfont":{"size":9.4488188976378,"color":"rgba(0,0,0,1)"},"type":"scatter","mode":"text","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[60700],"y":[22],"text":"7 pm shift change →","hovertext":"","textfont":{"size":9.4488188976378,"color":"rgba(0,0,0,1)"},"type":"scatter","mode":"text","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":39.5118306351183,"r":7.30593607305936,"b":40.1826484018265,"l":37.2602739726027},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Figure 2. Time of day postoperative oral feeding was initiated <br /> for infants undergoing cardiac surgery","font":{"color":"rgba(0,0,0,1)","family":"","size":13.2835201328352},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-4140,86940],"tickmode":"array","ticktext":["00:00","04:00","08:00","12:00","16:00","20:00","24:00"],"tickvals":[0,14400,28800,43200,57600,72000,86400],"categoryorder":"array","categoryarray":["00:00","04:00","08:00","12:00","16:00","20:00","24:00"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Time of day","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-2.2,24.2],"tickmode":"array","ticktext":["0","5","10","15","20"],"tickvals":[0,5,10,15,20],"categoryorder":"array","categoryarray":["0","5","10","15","20"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"# of infants","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"c7c6403f95a0":{"x":{},"y":{},"type":"scatter"},"c7c6e785c54":{"x":{},"y":{},"xend":{},"yend":{}},"c7c67ff59637":{"x":{},"y":{},"xend":{},"yend":{}},"c7c654593682":{"x":{},"y":{},"text":{}},"c7c62d09bc11":{"x":{},"y":{}},"c7c65a1a1730":{"x":{},"y":{}}},"cur_data":"c7c6403f95a0","visdat":{"c7c6403f95a0":["function (y) ","x"],"c7c6e785c54":["function (y) ","x"],"c7c67ff59637":["function (y) ","x"],"c7c654593682":["function (y) ","x"],"c7c62d09bc11":["function (y) ","x"],"c7c65a1a1730":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 <p><br></p>
 <div id="notes-1" class="section level4">
 <h4><em>Notes</em></h4>
-<p>As visualized in Figure 2, the most common time of day at which oral feeding was initiated was 10:00 am (n = 21 infants). Evening hours were also common, with 17 infants started on oral feeding at both 8:00 pm and 9:00 pm. A third peak in frequency can be seen between midnight and 2:00 am.</p>
-<p><strong>Dotted lines</strong> demonstrate the most common times for shift change (7 am and 7 pm). A clear increase in oral feeding initiation can be seen after these times, suggesting that the decision to begin oral feeding may be driven by the hospital schedule rather than by infant cues/clinical readiness. A third common time for shift change is 11:00 pm, which may explain the increase in feeding initiation around midnight.</p>
+<p>As visualized in Figure 2, the most common time of day at which oral
+feeding was initiated was 10:00 am (n = 21 infants). Evening hours were
+also common, with 17 infants started on oral feeding at both 8:00 pm and
+9:00 pm. A third peak in frequency can be seen between midnight and 2:00
+am.</p>
+<p><strong>Dotted lines</strong> demonstrate the most common times for
+shift change (7 am and 7 pm). A clear increase in oral feeding
+initiation can be seen after these times, suggesting that the decision
+to begin oral feeding may be driven by the hospital schedule rather than
+by infant cues/clinical readiness. A third common time for shift change
+is 11:00 pm, which may explain the increase in feeding initiation around
+midnight.</p>
 </div>
 </div>
 </div>
